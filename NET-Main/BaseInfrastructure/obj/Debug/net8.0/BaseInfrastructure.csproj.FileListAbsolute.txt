@@ -1,0 +1,12 @@
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\bin\Debug\net8.0\BaseInfrastructure.deps.json
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\bin\Debug\net8.0\BaseInfrastructure.dll
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\bin\Debug\net8.0\BaseInfrastructure.pdb
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\BaseInfrastructure.csproj.AssemblyReference.cache
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\BaseInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\BaseInfrastructure.AssemblyInfoInputs.cache
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\BaseInfrastructure.AssemblyInfo.cs
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\BaseInfrastructure.csproj.CoreCompileInputs.cache
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\BaseInfrastructure.dll
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\refint\BaseInfrastructure.dll
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\BaseInfrastructure.pdb
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseInfrastructure\obj\Debug\net8.0\ref\BaseInfrastructure.dll

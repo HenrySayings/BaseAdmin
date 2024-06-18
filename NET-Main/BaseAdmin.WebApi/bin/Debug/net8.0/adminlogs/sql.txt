@@ -1,0 +1,257 @@
+2024-05-26 08:28:37.6760 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-26 08:29:34.9575 | INFO | 0HN3T3BLEI03D | 127.0.0.1 | userName= | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-26 08:29:35.1537 | INFO | 0HN3T3BLEI03E | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-26 08:29:35.1879 | INFO | 0HN3T3BLEI03E | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-26 08:29:35.4521 | INFO | 0HN3T3BLEI03G | 127.0.0.1 | userName=admin | http://localhost/getRouters 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE ( [Status] = N'0' )  AND  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-26 08:29:35.5029 | INFO | 0HN3T3BLEI03H | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-26 08:29:43.7069 | INFO | 0HN3T3BLEI03J | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams]  FROM [UserScore]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-26 08:29:43.7188 | INFO | 0HN3T3BLEI03J | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】SELECT * FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [UserScore]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 08:29:53.5118 | INFO | 0HN3T3BLEI03K | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Course]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-26 08:29:53.5171 | INFO | 0HN3T3BLEI03K | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】SELECT * FROM (SELECT [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted],ROW_NUMBER() OVER(ORDER BY [CourseId] Asc) AS RowIndex  FROM [Course]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 08:29:54.7218 | INFO | 0HN3T3BLEI03M | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-26 08:29:54.7404 | INFO | 0HN3T3BLEI03L | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish]  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-26 08:29:54.7404 | INFO | 0HN3T3BLEI03L | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】SELECT * FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 08:29:55.9654 | INFO | 0HN3T3BLEI03O | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/select 
+【db0 SQL】SELECT  [ChapeterId] AS [ChapeterId] , [ChapterName] AS [ChapterName]  FROM [Chapeter] 
+
+2024-05-26 08:29:55.9715 | INFO | 0HN3T3BLEI03N | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-26 08:29:55.9715 | INFO | 0HN3T3BLEI03N | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 08:30:30.6831 | INFO | 0HN3T3BLEI03P | ::1 |  | http://localhost/business/CourseService/GetUniCourses 
+【db0 SQL】SELECT  [PicUrl] AS [PicUrl] , [CourseName] AS [CourseName] , [CourseId] AS [CourseId]  FROM [Course] 
+
+2024-05-26 08:41:04.9589 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-26 08:41:05.0229 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/getInfo 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-26 08:43:25.9463 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Select/examlist 
+【db0 SQL】SELECT [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select] 
+
+2024-05-26 08:45:39.2239 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [y].[CourseName] AS [Title]  FROM [Chapeter] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( [x].[CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [x].[ChapterName],[y].[CourseName] 
+
+2024-05-26 08:45:39.2722 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterName] AS [ChapeterName]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [ChapterName] ORDER BY [ChapeterName] DESC
+
+2024-05-26 08:45:39.3175 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterName] AS [ChapeterName]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [ChapterName] ORDER BY [ChapeterName] DESC
+
+2024-05-26 08:45:39.3252 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第一章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-26 08:45:39.3252 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第二章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-26 08:45:39.3354 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第一章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-26 08:45:39.3745 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第二章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-26 08:45:57.0844 | WARN | 0HN3T3BLEI03T | ::1 |  | http://localhost/LogOut 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'注销',0,N'SysLogin.LogOut()',N'POST',0,N'admin',N'/LogOut',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": {    "name": "admin",    "id": 1  }}',0,CAST('2024-05-26 08:45:57.038' AS DATETIME),0) ;
+
+2024-05-26 08:47:03.5690 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'E10ADC3949BA59ABBE56E057F20F883E')) ))
+
+2024-05-26 08:47:03.6353 | WARN | 0HN3T3BLEI03T | ::1 |  | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'0',N'127.0.0.1',N'0-内网IP-内网IP',N'Android 6.0 Nexus 5 Chrome Mobile 125.0.0',N'Android 6.0',N'登录成功',CAST('2024-05-26 08:47:03.574' AS DATETIME)) ;
+
+2024-05-26 08:47:03.6952 | WARN | 0HN3T3BLEI03T | ::1 |  | http://localhost/login 
+【db0 SQL】UPDATE [sys_user]  SET
+           [LoginIP]=N'127.0.0.1',[LoginDate]=CAST('2024-05-26 08:47:03.639' AS DATETIME)  WHERE [UserId]=1
+
+2024-05-26 08:47:03.7471 | WARN | 0HN3T3BLEI03T | ::1 |  | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'登录',0,N'SysLogin.Login()',N'POST',0,N'/login',N'127.0.0.1',N'0-内网IP-内网IP',N'{"username":"admin","password":"***"}',N'{  "code": 200,  "msg": "success",  "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkJlYXJlciJ9.eyJwcmltYXJ5c2lkIjoiMSIsIm5hbWVpZCI6IjEiLCJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiZ3JvdXBzaWQiOiIyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy91c2VyZGF0YSI6IntcIlVzZXJJZFwiOjEsXCJEZXB0SWRcIjoyLFwiVXNlck5hbWVcIjpcImFkbWluXCIsXCJSb2xlSWRzXCI6W1wiYWRtaW5cIl0sXCJSb2xlc1wiOlt7XCJSb2xlSWRcIjoxLFwiUm9sZUtleVwiOlwiYWRtaW5cIixcIkRhdGFTY29wZVwiOjF9XSxcIkV4cGlyZVRpbWVcIjpcIjAwMDEtMDEtMDFUMDA6MDA6MDBcIn0iLCJBdWRpZW5jZSI6IkJhc2VBZG1pbi5ORVQiLCJJc3N1ZXIiOiJCYXNlQWRtaW4uTkVUIiwibmJmIjoxNzE2Njg0NDIzLCJleHAiOjE3MTY3NzA4MjMsImlhdCI6MTcxNjY4NDQyMywiaXNzIjoiQmFzZUFkbWluLk5FVCIsImF1ZCI6IkJhc2VBZG1pbi5ORVQifQ.hjAE0ZfzxJcCmTqnfM-bu3HbJ492rKtdAkfaUBokvrU"}',0,CAST('2024-05-26 08:47:03.747' AS DATETIME),0) ;
+
+2024-05-26 08:47:09.9858 | INFO | 0HN3T3BLEI03T | ::1 |  | http://localhost/business/Select/examlist 
+【db0 SQL】SELECT [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select] 
+
+2024-05-26 10:04:35.5322 | WARN | 0HN3T3BLEI03H | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】INSERT INTO [UserOnlineLog]  
+           ([Id],[UserId],[OnlineTime],[TodayOnlineTime],[AddTime],[Location],[UserIP],[LoginTime],[Remark],[Platform])
+     VALUES
+           (1794550166712360960,1,95,95,CAST('2024-05-26 10:04:35.523' AS DATETIME),N'内网IP',N'127.0.0.1',CAST('2024-05-26 08:29:35.496' AS DATETIME),N'Windows 10 Other Edge 123.0.0',N'web') ;
+
+2024-05-26 10:04:35.7826 | INFO | 0HN3T3BLEI041 | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-26 11:51:07.1784 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-26 11:51:15.0494 | INFO | 0HN3T6SBJVMJ8 | 127.0.0.1 | userName= | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-26 11:51:15.1862 | INFO | 0HN3T6SBJVMJ9 | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-26 11:51:15.2079 | INFO | 0HN3T6SBJVMJ9 | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-26 11:51:15.4187 | INFO | 0HN3T6SBJVMJB | 127.0.0.1 | userName=admin | http://localhost/getRouters 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE ( [Status] = N'0' )  AND  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-26 11:51:15.4881 | INFO | 0HN3T6SBJVMJC | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-26 11:51:15.8081 | INFO | 0HN3T6SBJVMJE | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/select 
+【db0 SQL】SELECT  [ChapeterId] AS [ChapeterId] , [ChapterName] AS [ChapterName]  FROM [Chapeter] 
+
+2024-05-26 11:51:15.8205 | INFO | 0HN3T6SBJVMJD | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-26 11:51:15.8205 | INFO | 0HN3T6SBJVMJD | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 11:51:19.4135 | WARN | 0HN3T6SBJVMJF | 127.0.0.1 | userName=admin | http://localhost/LogOut 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'注销',0,N'SysLogin.LogOut()',N'POST',0,N'admin',N'/LogOut',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": {    "name": "admin",    "id": 1  }}',0,CAST('2024-05-26 11:51:19.355' AS DATETIME),0) ;
+
+2024-05-26 11:51:20.0004 | INFO | 0HN3T6SBJVMJG | 127.0.0.1 |  | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-26 11:51:20.3725 | INFO | 0HN3T6SBJVMJH | 127.0.0.1 |  | http://localhost/captchaImage 
+【db0 SQL】SELECT  TOP 1 [ConfigId],[ConfigName],[ConfigKey],[ConfigValue],[ConfigType],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_config]  WHERE ( [ConfigKey] = N'sys.account.captchaOnOff' )
+
+2024-05-26 11:52:26.9758 | INFO | 0HN3T6SBJVMJI | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'e10adc3949ba59abbe56e057f20f883e')) ))
+
+2024-05-26 11:52:27.0379 | WARN | 0HN3T6SBJVMJI | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'0',N'127.0.0.1',N'0-内网IP-内网IP',N'Windows 10 Other Edge 123.0.0',N'Windows 10',N'登录成功',CAST('2024-05-26 11:52:26.978' AS DATETIME)) ;
+
+2024-05-26 11:52:27.0751 | WARN | 0HN3T6SBJVMJI | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】UPDATE [sys_user]  SET
+           [LoginIP]=N'127.0.0.1',[LoginDate]=CAST('2024-05-26 11:52:27.051' AS DATETIME)  WHERE [UserId]=1
+
+2024-05-26 11:52:27.1729 | WARN | 0HN3T6SBJVMJI | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'登录',0,N'SysLogin.Login()',N'POST',0,N'admin',N'/login',N'127.0.0.1',N'0-内网IP-内网IP',N'{"username":"admin","password":"***","code":"1","uuid":"694a165296df4adfbbf59334d065dd06","clientId":"fde55877368a5d4735462d6073b87575"}',N'{  "code": 200,  "msg": "success",  "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkJlYXJlciJ9.eyJwcmltYXJ5c2lkIjoiMSIsIm5hbWVpZCI6IjEiLCJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiZ3JvdXBzaWQiOiIyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy91c2VyZGF0YSI6IntcIlVzZXJJZFwiOjEsXCJEZXB0SWRcIjoyLFwiVXNlck5hbWVcIjpcImFkbWluXCIsXCJSb2xlSWRzXCI6W1wiYWRtaW5cIl0sXCJSb2xlc1wiOlt7XCJSb2xlSWRcIjoxLFwiUm9sZUtleVwiOlwiYWRtaW5cIixcIkRhdGFTY29wZVwiOjF9XSxcIkV4cGlyZVRpbWVcIjpcIjAwMDEtMDEtMDFUMDA6MDA6MDBcIn0iLCJBdWRpZW5jZSI6IkJhc2VBZG1pbi5ORVQiLCJJc3N1ZXIiOiJCYXNlQWRtaW4uTkVUIiwibmJmIjoxNzE2Njk1NTQ3LCJleHAiOjE3MTY3ODE5NDcsImlhdCI6MTcxNjY5NTU0NywiaXNzIjoiQmFzZUFkbWluLk5FVCIsImF1ZCI6IkJhc2VBZG1pbi5ORVQifQ.TI2n4lxUiAi0mcoC_9OQiQQn150G7HXrQQwXkDe27_s"}',0,CAST('2024-05-26 11:52:27.173' AS DATETIME),0) ;
+
+2024-05-26 11:52:27.2633 | INFO | 0HN3T6SBJVMJJ | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-26 11:52:27.3613 | INFO | 0HN3T6SBJVMJM | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-26 11:56:09.9452 | INFO | 0HN3T6SBJVMJO | 127.0.0.1 | userName=admin | http://localhost/system/dict/data/type/sys_normal_disable 
+【db0 SQL】SELECT [DictCode],[DictSort],[DictLabel],[DictValue],[DictType],[CssClass],[ListClass],[IsDefault],[Status],[LangKey],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_dict_data]  WHERE (( [Status] = N'0' ) AND ( [DictType] = N'sys_normal_disable' ))ORDER BY [DictSort] ASC
+
+2024-05-26 11:56:10.0839 | INFO | 0HN3T6SBJVMJN | 127.0.0.1 | userName=admin | http://localhost/system/role/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT (SELECT COUNT(*) FROM [sys_user_role] [f]  WHERE ( [role_id] = [role].[RoleId] )) AS [UserNum] ,[RoleId] AS [RoleId] ,[RoleName] AS [RoleName] ,[RoleKey] AS [RoleKey] ,[RoleSort] AS [RoleSort] ,[Status] AS [Status] ,[DelFlag] AS [DelFlag] ,[DataScope] AS [DataScope] ,[menu_check_strictly] AS [MenuCheckStrictly] ,[dept_check_strictly] AS [DeptCheckStrictly] ,[Create_by] AS [Create_by] ,[Create_time] AS [Create_time] ,[Update_by] AS [Update_by] ,[Update_time] AS [Update_time] ,[Remark] AS [Remark] FROM [sys_role] [role]  WHERE ( [DelFlag] = 0 )) CountTable 
+
+2024-05-26 11:56:10.1050 | INFO | 0HN3T6SBJVMJN | 127.0.0.1 | userName=admin | http://localhost/system/role/list 
+【db0 SQL】SELECT * FROM (SELECT (SELECT COUNT(*) FROM [sys_user_role] [f]  WHERE ( [role_id] = [role].[RoleId] )) AS [UserNum] ,[RoleId] AS [RoleId] ,[RoleName] AS [RoleName] ,[RoleKey] AS [RoleKey] ,[RoleSort] AS [RoleSort] ,[Status] AS [Status] ,[DelFlag] AS [DelFlag] ,[DataScope] AS [DataScope] ,[menu_check_strictly] AS [MenuCheckStrictly] ,[dept_check_strictly] AS [DeptCheckStrictly] ,[Create_by] AS [Create_by] ,[Create_time] AS [Create_time] ,[Update_by] AS [Update_by] ,[Update_time] AS [Update_time] ,[Remark] AS [Remark],ROW_NUMBER() OVER(ORDER BY [RoleSort] ASC) AS RowIndex  FROM [sys_role] [role]  WHERE ( [DelFlag] = 0 )) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 11:56:13.9366 | INFO | 0HN3T6SBJVMJP | 127.0.0.1 | userName=admin | http://localhost/system/dict/data/types 
+【db0 SQL】SELECT [DictLabel] AS [Label] , [DictValue] AS [Value] ,[DictLabel] AS [DictLabel] ,[DictValue] AS [DictValue] ,[DictType] AS [DictType] ,[CssClass] AS [CssClass] ,[ListClass] AS [ListClass] ,[LangKey] AS [LangKey] FROM [sys_dict_data]  WHERE (( [Status] = N'0' ) AND  ([DictType] IN ('sys_show_hide','sys_normal_disable')) )ORDER BY [DictSort] ASC
+
+2024-05-26 11:56:14.0012 | INFO | 0HN3T6SBJVMJQ | 127.0.0.1 | userName=admin | http://localhost/system/menu/treelist 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-26 11:56:14.0153 | INFO | 0HN3T6SBJVMJR | 127.0.0.1 | userName=admin | http://localhost/system/menu/treelist 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE  ([MenuType] IN ('M','C','F')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-26 11:56:17.4097 | INFO | 0HN3T6SBJVMJT | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-26 11:56:17.4197 | INFO | 0HN3T6SBJVMJS | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc]  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-26 11:56:17.4197 | INFO | 0HN3T6SBJVMJS | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】SELECT * FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc] ,ROW_NUMBER() OVER(ORDER BY ChapterName asc,[ChapterName] Asc) AS RowIndex  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 11:56:18.4582 | INFO | 0HN3T6SBJVMJU | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams]  FROM [UserScore]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-26 11:56:18.4582 | INFO | 0HN3T6SBJVMJU | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】SELECT * FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [UserScore]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 11:56:19.3301 | INFO | 0HN3T6SBJVMK0 | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/select 
+【db0 SQL】SELECT  [ChapeterId] AS [ChapeterId] , [ChapterName] AS [ChapterName]  FROM [Chapeter] 
+
+2024-05-26 11:56:19.3301 | INFO | 0HN3T6SBJVMJV | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-26 11:56:19.3301 | INFO | 0HN3T6SBJVMJV | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-26 11:56:40.0589 | WARN | 0HN3T6SBJVMK1 | 127.0.0.1 |  | http://localhost/business/Select/importTemplate 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'题目模板',5,N'Select.ImportTemplateExcel()',N'GET',0,N'/business/Select/importTemplate',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'',0,CAST('2024-05-26 11:56:40.060' AS DATETIME),0) ;
+
+2024-05-26 11:58:15.8980 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-26 11:58:42.2611 | INFO | 0HN3T70GR7OP3 | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [y].[CourseName] AS [Title]  FROM [Chapeter] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( [x].[CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [x].[ChapterName],[y].[CourseName] 
+
+2024-05-26 11:58:42.2868 | INFO | 0HN3T70GR7OP3 | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterName] AS [ChapeterName]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [ChapterName] ORDER BY [ChapeterName] DESC
+
+2024-05-26 11:58:42.3209 | INFO | 0HN3T70GR7OP3 | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterName] AS [ChapeterName]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [ChapterName] ORDER BY [ChapeterName] DESC
+
+2024-05-26 11:58:42.3824 | INFO | 0HN3T70GR7OP3 | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第一章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-26 11:58:42.3916 | INFO | 0HN3T70GR7OP3 | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第二章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-26 11:58:42.3916 | INFO | 0HN3T70GR7OP3 | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第一章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-26 11:58:42.3916 | INFO | 0HN3T70GR7OP3 | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第二章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-26 11:59:42.2143 | INFO | 0HN3T70GR7OP3 | ::1 |  | http://localhost/business/Select/examlist 
+【db0 SQL】SELECT [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select] 
+

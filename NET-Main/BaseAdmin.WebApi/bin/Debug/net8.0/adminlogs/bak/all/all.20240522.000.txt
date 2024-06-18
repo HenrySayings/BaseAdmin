@@ -1,0 +1,5 @@
+2024-05-22 22:29:24.8281|0|0HN3QDE9V9GK8|INFO|GlobalActionMonitor|127.0.0.1|admin|url: http://localhost/business/Chapeter/delete/6f123780-f7e5-4850-b865-4d91c84df4da|-||{  "code": 200,  "msg": "success"}
+2024-05-22 22:29:28.9581|0|0HN3QDE9V9GKA|INFO|GlobalActionMonitor|127.0.0.1|admin|url: http://localhost/business/Chapeter/delete/21ad209a-627a-4b96-aba5-26991189fb18|-||{  "code": 200,  "msg": "success"}
+2024-05-22 22:29:30.9284|0|0HN3QDE9V9GKC|INFO|GlobalActionMonitor|127.0.0.1|admin|url: http://localhost/business/Chapeter/delete/a947d95b-aedc-4ec1-8cb7-cc6652d5d043|-||{  "code": 200,  "msg": "success"}
+2024-05-22 22:29:32.7092|0|0HN3QDE9V9GKE|INFO|GlobalActionMonitor|127.0.0.1|admin|url: http://localhost/business/Chapeter/delete/6f5ac5a1-12f6-4f49-a66f-0847417e98b4|-||{  "code": 200,  "msg": "success"}
+2024-05-22 22:29:34.6642|0|0HN3QDE9V9GKG|INFO|GlobalActionMonitor|127.0.0.1|admin|url: http://localhost/business/Chapeter/delete/0921d74b-c3de-48b7-98bf-8c79124def3c|-||{  "code": 200,  "msg": "success"}

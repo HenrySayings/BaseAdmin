@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JinianNet.JNTemplate" Version="2.4.2" />
+    <PackageReference Include="SqlSugarCoreNoDrive" Version="5.1.4.143" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseInfrastructure\BaseInfrastructure.csproj" />
+    <ProjectReference Include="..\BaseServiceCore\BaseServiceCore.csproj" />
+  </ItemGroup>
+</Project>

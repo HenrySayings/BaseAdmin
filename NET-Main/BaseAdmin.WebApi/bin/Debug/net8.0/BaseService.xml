@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BaseService</name>
+    </assembly>
+    <members>
+        <member name="T:BaseService.HelloService">
+            <summary>
+            注意：下面的AppService不要漏了
+            </summary>
+        </member>
+        <member name="F:BaseService.HelloService.userService">
+            <summary>
+            引用User服务
+            </summary>
+        </member>
+        <member name="M:BaseService.HelloService.#ctor(BaseServiceCore.Services.IService.ISysUserService)">
+            <summary>
+            
+            </summary>
+            <param name="userService"></param>
+        </member>
+        <member name="M:BaseService.HelloService.SayHello(System.String)">
+            <summary>
+            数据库使用案例
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BaseService.IService.IHelloService">
+            <summary>
+            Hello接口
+            </summary>
+        </member>
+        <member name="M:BaseService.IService.IHelloService.SayHello(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

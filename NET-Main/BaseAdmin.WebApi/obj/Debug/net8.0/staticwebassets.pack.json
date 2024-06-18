@@ -1,0 +1,181 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\2024\\0523\\18874A81EC793AA2.mp4",
+      "PackagePath": "staticwebassets\\2024\\0523\\18874A81EC793AA2.mp4"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\2024\\0523\\476E6AEF72003C85.mp4",
+      "PackagePath": "staticwebassets\\2024\\0523\\476E6AEF72003C85.mp4"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\2024\\0523\\4E93FB8F953B39F3.mp4",
+      "PackagePath": "staticwebassets\\2024\\0523\\4E93FB8F953B39F3.mp4"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\2024\\0523\\6A0169BE2C0EE15B.jpg",
+      "PackagePath": "staticwebassets\\2024\\0523\\6A0169BE2C0EE15B.jpg"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\2024\\0523\\B1BEAFDFA46EB9CB.jpg",
+      "PackagePath": "staticwebassets\\2024\\0523\\B1BEAFDFA46EB9CB.jpg"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\2024\\0523\\E0F48983BEA016EF.xlsx",
+      "PackagePath": "staticwebassets\\2024\\0523\\E0F48983BEA016EF.xlsx"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\2024\\0525\\19CE23C928451100.jpg",
+      "PackagePath": "staticwebassets\\2024\\0525\\19CE23C928451100.jpg"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\2024\\0525\\D3EE7F20CA5087B0.png",
+      "PackagePath": "staticwebassets\\2024\\0525\\D3EE7F20CA5087B0.png"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\TplVueApi.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\TplVueApi.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\antDesign\\Vue2.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\antDesign\\Vue2.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\app\\api.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\app\\api.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\app\\form.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\app\\form.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\app\\vue2.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\app\\vue2.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\csharp\\TplControllers.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\csharp\\TplControllers.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\csharp\\TplDto.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\csharp\\TplDto.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\csharp\\TplIService.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\csharp\\TplIService.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\csharp\\TplModel.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\csharp\\TplModel.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\csharp\\TplRepository.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\csharp\\TplRepository.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\csharp\\TplService.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\csharp\\TplService.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\sql\\MySqlTemplate.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\sql\\MySqlTemplate.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\sql\\Other.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\sql\\Other.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\sql\\PgSql.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\sql\\PgSql.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\sql\\SqlTemplate.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\sql\\SqlTemplate.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\v3\\TreeVue.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\v3\\TreeVue.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\v3\\Vue.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\v3\\Vue.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\vue2\\CurdForm.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\vue2\\CurdForm.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\vue2\\QueryForm.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\vue2\\QueryForm.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\vue2\\TableList.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\vue2\\TableList.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\vue2\\TplTreeVue.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\vue2\\TplTreeVue.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\vue2\\TplVue.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\vue2\\TplVue.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\CodeGenTemplate\\vue2\\TplVueSelect.txt",
+      "PackagePath": "staticwebassets\\CodeGenTemplate\\vue2\\TplVueSelect.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\ImportTemplate\\lang.xlsx",
+      "PackagePath": "staticwebassets\\ImportTemplate\\lang.xlsx"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\ImportTemplate\\select.xlsx",
+      "PackagePath": "staticwebassets\\ImportTemplate\\select.xlsx"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\ImportTemplate\\user.xlsx",
+      "PackagePath": "staticwebassets\\ImportTemplate\\user.xlsx"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\avatar\\2024\\0409\\79D031C517F7F315.jpg",
+      "PackagePath": "staticwebassets\\avatar\\2024\\0409\\79D031C517F7F315.jpg"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\avatar\\2024\\0409\\97B70F0870D50E0E.jpg",
+      "PackagePath": "staticwebassets\\avatar\\2024\\0409\\97B70F0870D50E0E.jpg"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\avatar\\2024\\0416\\6B1DCADB6051B0F6.jpg",
+      "PackagePath": "staticwebassets\\avatar\\2024\\0416\\6B1DCADB6051B0F6.jpg"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\data.xlsx",
+      "PackagePath": "staticwebassets\\data.xlsx"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\logo.txt",
+      "PackagePath": "staticwebassets\\logo.txt"
+    },
+    {
+      "Id": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\wwwroot\\uploads\\2024\\0523\\9A6BCFB7F37F4E03.xlsx",
+      "PackagePath": "staticwebassets\\uploads\\2024\\0523\\9A6BCFB7F37F4E03.xlsx"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BaseAdmin.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BaseAdmin.WebApi.props",
+      "PackagePath": "build\\BaseAdmin.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BaseAdmin.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\BaseAdmin.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BaseAdmin.WebApi.props",
+      "PackagePath": "buildTransitive\\BaseAdmin.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

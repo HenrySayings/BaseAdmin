@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="5.2.8" />
+    <PackageReference Include="Quartz" Version="3.8.0" />
+    <PackageReference Include="Quartz.Serialization.Json" Version="3.8.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseInfrastructure\BaseInfrastructure.csproj" />
+    <ProjectReference Include="..\BaseServiceCore\BaseServiceCore.csproj" />
+  </ItemGroup>
+</Project>

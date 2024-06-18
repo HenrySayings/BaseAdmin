@@ -1,0 +1,719 @@
+2024-04-09 21:56:55.9115 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 21:56:55.9115 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 21:56:55.9234 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 21:56:55.9618 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 21:56:55.9618 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 21:56:55.9889 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 21:56:55.9889 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 21:56:56.0030 Info Configuration initialized.
+2024-04-09 21:58:32.0958 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 21:58:32.1137 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 21:58:32.1137 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 21:58:32.1137 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 21:58:32.1137 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 21:58:32.1301 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 21:58:32.1301 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 21:58:32.1431 Info Configuration initialized.
+2024-04-09 22:01:31.7849 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:01:31.7849 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:01:31.7849 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:01:31.7849 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:01:31.7849 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:01:31.8065 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:01:31.8065 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:01:31.8211 Info Configuration initialized.
+2024-04-09 22:02:37.4870 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:02:37.4870 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:02:37.4870 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:02:37.5043 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:02:37.5043 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:02:37.5043 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:02:37.5043 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:02:37.5237 Info Configuration initialized.
+2024-04-09 22:03:43.0080 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:03:43.0198 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:03:43.0198 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:03:43.0198 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:03:43.0198 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:03:43.0378 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:03:43.0378 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:03:43.0532 Info Configuration initialized.
+2024-04-09 22:04:30.0022 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:04:30.0022 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:04:30.0022 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:04:30.0192 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:04:30.0192 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:04:30.0192 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:04:30.0192 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:04:30.0439 Info Configuration initialized.
+2024-04-09 22:05:09.8300 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:05:09.8300 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:05:09.8300 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:05:09.8300 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:05:09.8300 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:05:09.8515 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:05:09.8515 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:05:09.8655 Info Configuration initialized.
+2024-04-09 22:06:38.2373 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:06:38.2373 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:06:38.2373 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:06:38.2514 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:06:38.2514 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:06:38.2514 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:06:38.2692 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:06:38.2692 Info Configuration initialized.
+2024-04-09 22:08:12.3476 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:08:12.3476 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:08:12.3476 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:08:12.3476 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:08:12.3476 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:08:12.3671 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:08:12.3671 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:08:12.3804 Info Configuration initialized.
+2024-04-09 22:10:40.0488 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:10:40.0672 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:10:40.0672 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:10:40.0672 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:10:40.0672 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:10:40.0844 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:10:40.0844 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:10:40.0986 Info Configuration initialized.
+2024-04-09 22:30:12.1935 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 22:30:12.1935 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 22:30:12.2047 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 22:30:12.2047 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 22:30:12.2047 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 22:30:12.2229 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 22:30:12.2229 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 22:30:12.2367 Info Configuration initialized.
+2024-04-09 23:00:25.5517 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 23:00:25.5517 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 23:00:25.5517 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 23:00:25.5985 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 23:00:25.5985 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 23:00:25.6225 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 23:00:25.6270 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 23:00:25.6270 Info Configuration initialized.
+2024-04-09 23:11:15.4398 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 23:11:15.4398 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 23:11:15.4398 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 23:11:15.4398 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 23:11:15.4398 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 23:11:15.4620 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 23:11:15.4620 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 23:11:15.4764 Info Configuration initialized.
+2024-04-09 23:19:22.6027 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-09 23:19:22.6126 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-09 23:19:22.6126 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-09 23:19:22.6126 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-09 23:19:22.6126 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-09 23:19:22.6303 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-09 23:19:22.6303 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\BaseAdminNetCore\BaseAdmin.WebApi\NLog.config
+2024-04-09 23:19:22.6469 Info Configuration initialized.
+2024-04-16 20:07:26.7419 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-16 20:07:26.7419 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-16 20:07:26.7419 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-16 20:07:26.7819 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-16 20:07:26.7819 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-16 20:07:26.8065 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-16 20:07:26.8065 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\smart-learningS\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-04-16 20:07:26.8207 Info Configuration initialized.
+2024-04-16 20:08:03.6469 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-16 20:08:03.6469 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-16 20:08:03.6469 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-16 20:08:03.6650 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-16 20:08:03.6650 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-16 20:08:03.6650 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-16 20:08:03.6650 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\smart-learningS\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-04-16 20:08:03.6864 Info Configuration initialized.
+2024-04-16 21:55:47.0089 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-16 21:55:47.0089 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-16 21:55:47.0089 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-16 21:55:47.0545 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-16 21:55:47.0545 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-16 21:55:47.0775 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-16 21:55:47.0775 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\smart-learningS\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-04-16 21:55:47.0909 Info Configuration initialized.
+2024-04-16 22:02:07.0860 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-16 22:02:07.0860 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-16 22:02:07.1008 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-16 22:02:07.1008 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-16 22:02:07.1008 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-16 22:02:07.1167 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-16 22:02:07.1167 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\smart-learningS\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-04-16 22:02:07.1167 Info Configuration initialized.
+2024-04-16 22:05:48.3822 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-16 22:05:48.3822 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-16 22:05:48.3822 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-16 22:05:48.3981 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-16 22:05:48.3981 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-16 22:05:48.3981 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-16 22:05:48.3981 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\smart-learningS\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-04-16 22:05:48.4178 Info Configuration initialized.
+2024-04-16 22:21:23.6488 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-16 22:21:23.6488 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-16 22:21:23.6488 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-16 22:21:23.6632 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-16 22:21:23.6632 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-16 22:21:23.6632 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-16 22:21:23.6834 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-04-16 22:21:23.6938 Info Configuration initialized.
+2024-04-16 22:22:58.7463 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-16 22:22:58.7463 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-16 22:22:58.7566 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-16 22:22:58.7566 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-16 22:22:58.7566 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-16 22:22:58.7566 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-16 22:22:58.7764 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-04-16 22:22:58.7764 Info Configuration initialized.
+2024-04-16 22:23:49.0534 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-04-16 22:23:49.0534 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-04-16 22:23:49.0534 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-04-16 22:23:49.0714 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-04-16 22:23:49.0714 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-04-16 22:23:49.0714 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-16 22:23:49.0714 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\kang\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-04-16 22:23:49.0949 Info Configuration initialized.
+2024-05-14 13:45:04.4274 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 13:45:04.4414 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 13:45:04.4414 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 13:45:04.4569 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 13:45:04.4569 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 13:45:04.4734 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 13:45:04.4734 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 13:45:04.4958 Info Configuration initialized.
+2024-05-14 13:46:22.0551 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 13:46:22.0650 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 13:46:22.0650 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 13:46:22.0878 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 13:46:22.0878 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 13:46:22.1022 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 13:46:22.1022 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 13:46:22.1254 Info Configuration initialized.
+2024-05-14 14:07:38.7645 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 14:07:38.7645 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 14:07:38.7645 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 14:07:38.7963 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 14:07:38.7963 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 14:07:38.8143 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 14:07:38.8143 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 14:07:38.8368 Info Configuration initialized.
+2024-05-14 14:10:39.2657 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 14:10:39.2770 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 14:10:39.2770 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 14:10:39.2984 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 14:10:39.2984 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 14:10:39.3151 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 14:10:39.3248 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 14:10:39.3414 Info Configuration initialized.
+2024-05-14 14:23:37.6718 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 14:23:37.6839 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 14:23:37.6839 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 14:23:37.7023 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 14:23:37.7023 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 14:23:37.7200 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 14:23:37.7274 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 14:23:37.7444 Info Configuration initialized.
+2024-05-14 14:25:01.5107 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 14:25:01.5107 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 14:25:01.5226 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 14:25:01.5394 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 14:25:01.5394 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 14:25:01.5605 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 14:25:01.5605 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 14:25:01.5908 Info Configuration initialized.
+2024-05-14 14:31:39.9446 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 14:31:39.9446 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 14:31:39.9446 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 14:31:39.9648 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 14:31:39.9648 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 14:31:39.9783 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 14:31:39.9783 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 14:31:39.9982 Info Configuration initialized.
+2024-05-14 14:37:46.0996 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 14:37:46.0996 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 14:37:46.0996 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 14:37:46.1128 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 14:37:46.1128 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 14:37:46.1369 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 14:37:46.1369 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 14:37:46.1655 Info Configuration initialized.
+2024-05-14 14:40:51.9454 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 14:40:51.9547 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 14:40:51.9547 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 14:40:51.9765 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 14:40:51.9765 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 14:40:51.9765 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 14:40:51.9983 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 14:40:52.0125 Info Configuration initialized.
+2024-05-14 16:11:45.4608 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-14 16:11:45.4771 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-14 16:11:45.4771 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-14 16:11:45.4915 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-14 16:11:45.4915 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-14 16:11:45.5218 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-14 16:11:45.5305 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-14 16:11:45.5467 Info Configuration initialized.
+2024-05-18 10:12:15.8075 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-18 10:12:15.8241 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-18 10:12:15.8241 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-18 10:12:15.8441 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-18 10:12:15.8441 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-18 10:12:15.8579 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-18 10:12:15.8579 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-18 10:12:15.8792 Info Configuration initialized.
+2024-05-18 10:12:17.4742 Info FileTarget(Name=sqlfile_wrapped): Archiving D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\bin\Debug\net7.0\adminlogs\sql.txt to D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\bin\Debug\net7.0\adminlogs\bak\sql\sql20240514.000.txt
+2024-05-18 10:12:59.4451 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-18 10:12:59.4567 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-18 10:12:59.4567 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-18 10:12:59.4768 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-18 10:12:59.4768 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-18 10:12:59.4901 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-18 10:12:59.4901 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-18 10:12:59.5144 Info Configuration initialized.
+2024-05-18 10:13:45.0383 Info FileTarget(Name=allfile_wrapped): Archiving D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\bin\Debug\net7.0\adminlogs\all.txt to D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\bin\Debug\net7.0\adminlogs\bak\all\all.20240514.000.txt
+2024-05-18 10:13:45.0471 Info FileTarget(Name=errorfile_wrapped): Archiving D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\bin\Debug\net7.0\adminlogs\error.txt to D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\bin\Debug\net7.0\adminlogs\bak\error\error.20240513.000.txt
+2024-05-18 10:14:14.5195 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-18 10:14:14.5195 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-18 10:14:14.5195 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-18 10:14:14.5360 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-18 10:14:14.5360 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-18 10:14:14.5609 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-18 10:14:14.5679 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-18 10:14:14.5831 Info Configuration initialized.
+2024-05-18 10:19:43.0244 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-18 10:19:43.0244 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-18 10:19:43.0244 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-18 10:19:43.0472 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-18 10:19:43.0472 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-18 10:19:43.0620 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-18 10:19:43.0620 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-18 10:19:43.0842 Info Configuration initialized.
+2024-05-18 10:29:50.0129 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-18 10:29:50.0151 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-18 10:29:50.0151 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-18 10:29:50.0151 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-18 10:29:50.0151 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-18 10:29:50.0479 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-18 10:29:50.0479 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Administrator\Source\Repos\base-admin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-18 10:29:50.0690 Info Configuration initialized.
+2024-05-21 22:44:10.5372 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-21 22:44:10.5516 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-21 22:44:10.5516 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-21 22:44:10.5626 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-21 22:44:10.5626 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-21 22:44:10.5869 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-21 22:44:10.5935 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-21 22:44:10.5935 Info Configuration initialized.
+2024-05-21 23:01:51.0993 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-21 23:01:51.1088 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-21 23:01:51.1088 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-21 23:01:51.1383 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-21 23:01:51.1383 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-21 23:01:51.1531 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-21 23:01:51.1598 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-21 23:01:51.1737 Info Configuration initialized.
+2024-05-21 23:12:54.2511 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-21 23:12:54.2511 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-21 23:12:54.2668 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-21 23:12:54.2668 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-21 23:12:54.2668 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-21 23:12:54.2953 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-21 23:12:54.3030 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-21 23:12:54.3184 Info Configuration initialized.
+2024-05-22 22:18:48.0531 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-22 22:18:48.0633 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-22 22:18:48.0633 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-22 22:18:48.0794 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-22 22:18:48.0794 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-22 22:18:48.0794 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-22 22:18:48.1000 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-22 22:18:48.1131 Info Configuration initialized.
+2024-05-22 22:18:49.1154 Info FileTarget(Name=sqlfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\sql.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\sql\sql20240521.000.txt
+2024-05-22 22:28:49.4090 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-22 22:28:49.4239 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-22 22:28:49.4239 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-22 22:28:49.4448 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-22 22:28:49.4448 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-22 22:28:49.4595 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-22 22:28:49.4595 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-22 22:28:49.4787 Info Configuration initialized.
+2024-05-22 22:29:24.8281 Info FileTarget(Name=allfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\all.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\all\all.20240521.000.txt
+2024-05-23 09:22:13.6775 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 09:22:13.6775 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 09:22:13.6890 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 09:22:13.6890 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 09:22:13.6890 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 09:22:13.7154 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 09:22:13.7222 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 09:22:13.7371 Info Configuration initialized.
+2024-05-23 09:22:14.5275 Info FileTarget(Name=sqlfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\sql.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\sql\sql20240522.000.txt
+2024-05-23 09:35:33.6134 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 09:35:33.6276 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 09:35:33.6276 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 09:35:33.6480 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 09:35:33.6480 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 09:35:33.6636 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 09:35:33.6636 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 09:35:33.6850 Info Configuration initialized.
+2024-05-23 09:36:54.9241 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 09:36:54.9241 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 09:36:54.9389 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 09:36:54.9389 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 09:36:54.9389 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 09:36:54.9670 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 09:36:54.9755 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 09:36:54.9937 Info Configuration initialized.
+2024-05-23 09:38:16.0781 Info FileTarget(Name=allfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\all.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\all\all.20240522.000.txt
+2024-05-23 10:54:35.8279 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 10:54:35.8436 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 10:54:35.8436 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 10:54:35.8662 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 10:54:35.8662 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 10:54:35.8854 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 10:54:35.8938 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 10:54:35.9122 Info Configuration initialized.
+2024-05-23 10:58:02.0544 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 10:58:02.0639 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 10:58:02.0639 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 10:58:02.0786 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 10:58:02.0786 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 10:58:02.1012 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 10:58:02.1096 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 10:58:02.1096 Info Configuration initialized.
+2024-05-23 11:17:28.4715 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 11:17:28.4715 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 11:17:28.4844 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 11:17:28.5000 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 11:17:28.5000 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 11:17:28.5000 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 11:17:28.5211 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 11:17:28.5363 Info Configuration initialized.
+2024-05-23 11:29:39.7068 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 11:29:39.7068 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 11:29:39.7068 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 11:29:39.7213 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 11:29:39.7213 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 11:29:39.7425 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 11:29:39.7425 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 11:29:39.8156 Info Configuration initialized.
+2024-05-23 11:40:11.2507 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 11:40:11.2652 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 11:40:11.2652 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 11:40:11.2859 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 11:40:11.2859 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 11:40:11.3011 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 11:40:11.3011 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 11:40:11.3284 Info Configuration initialized.
+2024-05-23 12:04:54.2539 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 12:04:54.2712 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 12:04:54.2712 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 12:04:54.2822 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 12:04:54.2822 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 12:04:54.3045 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 12:04:54.3045 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 12:04:54.3240 Info Configuration initialized.
+2024-05-23 12:41:57.7526 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 12:41:57.7526 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 12:41:57.7651 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 12:41:57.7814 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 12:41:57.7814 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 12:41:57.7814 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 12:41:57.8024 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 12:41:57.8158 Info Configuration initialized.
+2024-05-23 16:55:17.1290 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 16:55:17.1290 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 16:55:17.1432 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 16:55:17.1592 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 16:55:17.1592 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 16:55:17.1757 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 16:55:17.1757 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 16:55:17.1995 Info Configuration initialized.
+2024-05-23 16:56:51.7657 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 16:56:51.7657 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 16:56:51.7807 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 16:56:51.7807 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 16:56:51.7807 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 16:56:51.8077 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 16:56:51.8139 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 16:56:51.8280 Info Configuration initialized.
+2024-05-23 16:57:53.6024 Info FileTarget(Name=errorfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\error.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\error\error.20240521.000.txt
+2024-05-23 17:03:39.3904 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 17:03:39.4078 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 17:03:39.4078 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 17:03:39.4256 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 17:03:39.4256 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 17:03:39.4393 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 17:03:39.4393 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 17:03:39.4599 Info Configuration initialized.
+2024-05-23 17:06:45.3637 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 17:06:45.3793 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 17:06:45.3793 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 17:06:45.4007 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 17:06:45.4007 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 17:06:45.4183 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 17:06:45.4254 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 17:06:45.4403 Info Configuration initialized.
+2024-05-23 17:11:54.5362 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 17:11:54.5510 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 17:11:54.5510 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 17:11:54.5698 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 17:11:54.5698 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 17:11:54.5858 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 17:11:54.5954 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 17:11:54.6108 Info Configuration initialized.
+2024-05-23 20:34:42.9023 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 20:34:42.9113 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 20:34:42.9239 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 20:34:42.9550 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 20:34:42.9550 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 20:34:42.9903 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 20:34:42.9903 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 20:34:43.0259 Info Configuration initialized.
+2024-05-23 21:23:35.6243 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 21:23:35.6243 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 21:23:35.6243 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 21:23:35.6429 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 21:23:35.6429 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 21:23:35.6686 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 21:23:35.6770 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 21:23:35.6926 Info Configuration initialized.
+2024-05-23 21:33:38.5788 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 21:33:38.5942 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 21:33:38.5942 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 21:33:38.6155 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 21:33:38.6155 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 21:33:38.6308 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 21:33:38.6308 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 21:33:38.6553 Info Configuration initialized.
+2024-05-23 21:41:13.4071 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 21:41:13.4272 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 21:41:13.4272 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 21:41:13.4506 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 21:41:13.4506 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 21:41:13.4732 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 21:41:13.4732 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 21:41:13.5045 Info Configuration initialized.
+2024-05-23 21:46:40.9756 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 21:46:40.9888 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 21:46:40.9888 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 21:46:41.0060 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 21:46:41.0060 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 21:46:41.0192 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 21:46:41.0192 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 21:46:41.0430 Info Configuration initialized.
+2024-05-23 21:48:18.4628 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 21:48:18.4628 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 21:48:18.4822 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 21:48:18.4867 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 21:48:18.4867 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 21:48:18.5173 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 21:48:18.5173 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 21:48:18.5432 Info Configuration initialized.
+2024-05-23 21:50:17.3526 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 21:50:17.3604 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 21:50:17.3604 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 21:50:17.3853 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 21:50:17.3853 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 21:50:17.4054 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 21:50:17.4170 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 21:50:17.4707 Info Configuration initialized.
+2024-05-23 21:55:57.2902 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 21:55:57.2974 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 21:55:57.2974 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 21:55:57.3293 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 21:55:57.3293 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 21:55:57.3522 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 21:55:57.3625 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 21:55:57.3827 Info Configuration initialized.
+2024-05-23 21:59:04.5803 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 21:59:04.5972 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 21:59:04.5972 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 21:59:04.6117 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 21:59:04.6245 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 21:59:04.6415 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 21:59:04.6415 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 21:59:04.6710 Info Configuration initialized.
+2024-05-23 22:02:07.7354 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 22:02:07.7516 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 22:02:07.7516 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 22:02:07.7772 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 22:02:07.7772 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 22:02:07.7960 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 22:02:07.8051 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 22:02:07.8384 Info Configuration initialized.
+2024-05-23 22:44:54.1608 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 22:44:54.1608 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 22:44:54.1608 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 22:44:54.1738 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 22:44:54.1738 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 22:44:54.1924 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 22:44:54.1924 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 22:44:54.2099 Info Configuration initialized.
+2024-05-23 22:57:41.6641 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 22:57:41.6722 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 22:57:41.6722 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 22:57:41.6904 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 22:57:41.7033 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 22:57:41.7033 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 22:57:41.7277 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 22:57:41.7453 Info Configuration initialized.
+2024-05-23 22:59:23.9251 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 22:59:23.9389 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 22:59:23.9389 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 22:59:23.9768 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 22:59:23.9768 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 22:59:24.0026 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 22:59:24.0026 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 22:59:24.0323 Info Configuration initialized.
+2024-05-23 23:00:26.0972 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 23:00:26.0972 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 23:00:26.1102 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 23:00:26.1102 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 23:00:26.1102 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 23:00:26.1359 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 23:00:26.1426 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 23:00:26.1571 Info Configuration initialized.
+2024-05-23 23:11:45.3155 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 23:11:45.3155 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 23:11:45.3299 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 23:11:45.3434 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 23:11:45.3434 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 23:11:45.3629 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 23:11:45.3629 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 23:11:45.3873 Info Configuration initialized.
+2024-05-23 23:14:19.4171 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 23:14:19.4380 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 23:14:19.4380 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 23:14:19.4673 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 23:14:19.4686 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 23:14:19.4937 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 23:14:19.5050 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 23:14:19.5313 Info Configuration initialized.
+2024-05-23 23:16:34.6134 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 23:16:34.6134 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 23:16:34.6256 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 23:16:34.6256 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 23:16:34.6256 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 23:16:34.6512 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 23:16:34.6593 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 23:16:34.6817 Info Configuration initialized.
+2024-05-23 23:23:17.1898 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-23 23:23:17.1898 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-23 23:23:17.2045 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-23 23:23:17.2045 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-23 23:23:17.2045 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-23 23:23:17.2305 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-23 23:23:17.2382 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-23 23:23:17.2514 Info Configuration initialized.
+2024-05-24 08:56:22.7378 Info FileTarget(Name=sqlfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\sql.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\sql\sql20240523.000.txt
+2024-05-24 08:57:24.8944 Info FileTarget(Name=allfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\all.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\all\all.20240523.000.txt
+2024-05-25 15:41:01.9046 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 15:41:01.9173 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 15:41:01.9173 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 15:41:01.9372 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 15:41:01.9372 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 15:41:01.9524 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 15:41:01.9524 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 15:41:01.9728 Info Configuration initialized.
+2024-05-25 15:41:02.7263 Info FileTarget(Name=sqlfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\sql.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\sql\sql20240524.000.txt
+2024-05-25 15:42:59.7159 Info FileTarget(Name=allfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\all.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\all\all.20240524.000.txt
+2024-05-25 15:43:31.1231 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 15:43:31.1403 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 15:43:31.1403 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 15:43:31.1514 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 15:43:31.1514 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 15:43:31.1724 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 15:43:31.1724 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 15:43:31.1914 Info Configuration initialized.
+2024-05-25 23:05:09.2168 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 23:05:09.2334 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 23:05:09.2334 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 23:05:09.2512 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 23:05:09.2512 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 23:05:09.2655 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 23:05:09.2655 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 23:05:09.2859 Info Configuration initialized.
+2024-05-25 23:13:24.2620 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 23:13:24.2620 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 23:13:24.2620 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 23:13:24.2783 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 23:13:24.2783 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 23:13:24.3052 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 23:13:24.3129 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 23:13:24.3316 Info Configuration initialized.
+2024-05-25 23:17:17.8557 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 23:17:17.8557 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 23:17:17.8708 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 23:17:17.8947 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 23:17:17.8947 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 23:17:17.9166 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 23:17:17.9166 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 23:17:17.9442 Info Configuration initialized.
+2024-05-25 23:21:01.1386 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 23:21:01.1535 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 23:21:01.1535 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 23:21:01.1727 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 23:21:01.1727 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 23:21:01.1905 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 23:21:01.1905 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 23:21:01.2141 Info Configuration initialized.
+2024-05-25 23:23:43.6354 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 23:23:43.6521 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 23:23:43.6521 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 23:23:43.6714 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 23:23:43.6714 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 23:23:43.6850 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 23:23:43.6850 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 23:23:43.7107 Info Configuration initialized.
+2024-05-25 23:25:14.8425 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 23:25:14.8708 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 23:25:14.8708 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 23:25:14.8961 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 23:25:14.8961 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 23:25:14.9215 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 23:25:14.9387 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 23:25:14.9801 Info Configuration initialized.
+2024-05-25 23:36:44.5042 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 23:36:44.5148 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 23:36:44.5256 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 23:36:44.5433 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 23:36:44.5433 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 23:36:44.5629 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 23:36:44.5745 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 23:36:44.5919 Info Configuration initialized.
+2024-05-25 23:41:28.7948 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-25 23:41:28.8112 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-25 23:41:28.8112 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-25 23:41:28.8260 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-25 23:41:28.8260 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-25 23:41:28.8562 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-25 23:41:28.8562 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-25 23:41:28.8861 Info Configuration initialized.
+2024-05-25 23:43:15.8392 Info FileTarget(Name=errorfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\error.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\error\error.20240523.000.txt
+2024-05-26 08:28:36.7938 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-26 08:28:36.7938 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-26 08:28:36.7938 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-26 08:28:36.8094 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-26 08:28:36.8094 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-26 08:28:36.8371 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-26 08:28:36.8437 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-26 08:28:36.8572 Info Configuration initialized.
+2024-05-26 08:28:37.7058 Info FileTarget(Name=sqlfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\sql.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\sql\sql20240525.000.txt
+2024-05-26 08:45:57.0551 Info FileTarget(Name=allfile_wrapped): Archiving D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\all.txt to D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\bin\Debug\net8.0\adminlogs\bak\all\all.20240525.000.txt
+2024-05-26 11:51:06.4638 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-26 11:51:06.4796 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-26 11:51:06.4796 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-26 11:51:06.4991 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-26 11:51:06.4991 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-26 11:51:06.5157 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-26 11:51:06.5157 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-26 11:51:06.5386 Info Configuration initialized.
+2024-05-26 11:58:15.1879 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-05-26 11:58:15.1992 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-05-26 11:58:15.1992 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-05-26 11:58:15.1992 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-05-26 11:58:15.2141 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-05-26 11:58:15.2141 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-26 11:58:15.2352 Info Validating config: Targets=5, ConfigItems=161, FilePath=D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseAdmin.WebApi\NLog.config
+2024-05-26 11:58:15.2485 Info Configuration initialized.

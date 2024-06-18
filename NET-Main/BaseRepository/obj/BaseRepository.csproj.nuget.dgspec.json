@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseRepository\\BaseRepository.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseInfrastructure\\BaseInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseInfrastructure\\BaseInfrastructure.csproj",
+        "projectName": "BaseInfrastructure",
+        "projectPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseInfrastructure\\BaseInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "AspectCore.Abstractions": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.8.802, )"
+            },
+            "IPTools.China": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "JinianNet.JNTemplate": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MiniExcel": {
+              "target": "Package",
+              "version": "[1.31.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "UAParser": {
+              "target": "Package",
+              "version": "[3.1.47, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseModel\\BaseModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseModel\\BaseModel.csproj",
+        "projectName": "BaseModel",
+        "projectPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseModel\\BaseModel.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MiniExcel": {
+              "target": "Package",
+              "version": "[1.31.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SqlSugarCoreNoDrive": {
+              "target": "Package",
+              "version": "[5.1.4.143, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseRepository\\BaseRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseRepository\\BaseRepository.csproj",
+        "projectName": "BaseRepository",
+        "projectPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseRepository\\BaseRepository.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseInfrastructure\\BaseInfrastructure.csproj": {
+                "projectPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseInfrastructure\\BaseInfrastructure.csproj"
+              },
+              "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseModel\\BaseModel.csproj": {
+                "projectPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseModel\\BaseModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "SqlSugar.IOC": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "SqlSugarCoreNoDrive": {
+              "target": "Package",
+              "version": "[5.1.4.143, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

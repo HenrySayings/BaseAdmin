@@ -1,0 +1,164 @@
+2024-05-21 22:44:11.8207 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-21 22:48:16.9251 | INFO | 0HN3PKK650A5S | 127.0.0.1 |  | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-21 22:48:17.9570 | INFO | 0HN3PKK650A5T | 127.0.0.1 |  | http://localhost/captchaImage 
+【db0 SQL】SELECT  TOP 1 [ConfigId],[ConfigName],[ConfigKey],[ConfigValue],[ConfigType],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_config]  WHERE ( [ConfigKey] = N'sys.account.captchaOnOff' )
+
+2024-05-21 22:48:22.4156 | INFO | 0HN3PKK650A5U | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'e10adc3949ba59abbe56e057f20f883e')) ))
+
+2024-05-21 22:48:22.4922 | WARN | 0HN3PKK650A5U | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'1',N'127.0.0.1',N'0-内网IP-内网IP',N'Windows 10 Other Edge 123.0.0',N'Windows 10',N'用户名或密码错误',CAST('2024-05-21 22:48:22.419' AS DATETIME)) ;
+
+2024-05-21 22:48:39.5842 | INFO | 0HN3PKK650A5V | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'e10adc3949ba59abbe56e057f20f883e')) ))
+
+2024-05-21 22:48:39.6213 | WARN | 0HN3PKK650A5V | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'1',N'127.0.0.1',N'0-内网IP-内网IP',N'Windows 10 Other Edge 123.0.0',N'Windows 10',N'用户名或密码错误',CAST('2024-05-21 22:48:39.586' AS DATETIME)) ;
+
+2024-05-21 22:48:56.2902 | INFO | 0HN3PKK650A60 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'96e79218965eb72c92a549dd5a330112')) ))
+
+2024-05-21 22:48:56.3168 | WARN | 0HN3PKK650A60 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'1',N'127.0.0.1',N'0-内网IP-内网IP',N'Windows 10 Other Edge 123.0.0',N'Windows 10',N'用户名或密码错误',CAST('2024-05-21 22:48:56.294' AS DATETIME)) ;
+
+2024-05-21 22:51:51.9470 | INFO | 0HN3PKK650A61 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'96e79218965eb72c92a549dd5a330112')) ))
+
+2024-05-21 22:51:51.9928 | WARN | 0HN3PKK650A61 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'1',N'127.0.0.1',N'0-内网IP-内网IP',N'Windows 10 Other Edge 123.0.0',N'Windows 10',N'用户名或密码错误',CAST('2024-05-21 22:51:51.950' AS DATETIME)) ;
+
+2024-05-21 23:01:51.8937 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-21 23:02:29.1468 | INFO | 0HN3PKS45A8N0 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'96e79218965eb72c92a549dd5a330112')) ))
+
+2024-05-21 23:02:29.2873 | WARN | 0HN3PKS45A8N0 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'1',N'127.0.0.1',N'0-内网IP-内网IP',N'Windows 10 Other Edge 123.0.0',N'Windows 10',N'用户名或密码错误',CAST('2024-05-21 23:02:29.194' AS DATETIME)) ;
+
+2024-05-21 23:02:46.8775 | INFO | 0HN3PKS45A8N1 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'e10adc3949ba59abbe56e057f20f883e')) ))
+
+2024-05-21 23:12:55.0660 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-21 23:13:02.1487 | INFO | 0HN3PL20S8925 | 127.0.0.1 |  | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-21 23:13:02.2702 | INFO | 0HN3PL20S8926 | 127.0.0.1 |  | http://localhost/captchaImage 
+【db0 SQL】SELECT  TOP 1 [ConfigId],[ConfigName],[ConfigKey],[ConfigValue],[ConfigType],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_config]  WHERE ( [ConfigKey] = N'sys.account.captchaOnOff' )
+
+2024-05-21 23:13:03.8337 | INFO | 0HN3PL20S8927 | 127.0.0.1 |  | http://localhost/captchaImage 
+【db0 SQL】SELECT  TOP 1 [ConfigId],[ConfigName],[ConfigKey],[ConfigValue],[ConfigType],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_config]  WHERE ( [ConfigKey] = N'sys.account.captchaOnOff' )
+
+2024-05-21 23:13:11.0782 | INFO | 0HN3PL20S8928 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'e10adc3949ba59abbe56e057f20f883e')) ))
+
+2024-05-21 23:13:11.1503 | WARN | 0HN3PL20S8928 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'0',N'127.0.0.1',N'0-内网IP-内网IP',N'Windows 10 Other Edge 123.0.0',N'Windows 10',N'登录成功',CAST('2024-05-21 23:13:11.086' AS DATETIME)) ;
+
+2024-05-21 23:13:11.1884 | WARN | 0HN3PL20S8928 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】UPDATE [sys_user]  SET
+           [LoginIP]=N'127.0.0.1',[LoginDate]=CAST('2024-05-21 23:13:11.158' AS DATETIME)  WHERE [UserId]=1
+
+2024-05-21 23:13:11.2153 | INFO | 0HN3PL20S8928 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-21 23:13:11.3585 | WARN | 0HN3PL20S8928 | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'登录',0,N'SysLogin.Login()',N'POST',0,N'admin',N'/login',N'127.0.0.1',N'0-内网IP-内网IP',N'{"username":"admin","password":"***","code":"re6y","uuid":"50fd028bdd6c43a3991affbe04873e68","clientId":"fde55877368a5d4735462d6073b87575"}',N'{  "code": 200,  "msg": "success",  "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkJlYXJlciJ9.eyJwcmltYXJ5c2lkIjoiMSIsIm5hbWVpZCI6IjEiLCJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiZ3JvdXBzaWQiOiIyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy91c2VyZGF0YSI6IntcIlVzZXJJZFwiOjEsXCJEZXB0SWRcIjoyLFwiVXNlck5hbWVcIjpcImFkbWluXCIsXCJSb2xlSWRzXCI6W1wiYWRtaW5cIl0sXCJSb2xlc1wiOlt7XCJSb2xlSWRcIjoxLFwiUm9sZUtleVwiOlwiYWRtaW5cIixcIkRhdGFTY29wZVwiOjF9XSxcIkV4cGlyZVRpbWVcIjpcIjAwMDEtMDEtMDFUMDA6MDA6MDBcIn0iLCJBdWRpZW5jZSI6IkJhc2VBZG1pbi5ORVQiLCJJc3N1ZXIiOiJCYXNlQWRtaW4uTkVUIiwibmJmIjoxNzE2MzA0MzkxLCJleHAiOjE3MTYzOTA3OTEsImlhdCI6MTcxNjMwNDM5MSwiaXNzIjoiQmFzZUFkbWluLk5FVCIsImF1ZCI6IkJhc2VBZG1pbi5ORVQifQ.0sY9fpOtg-SqAuuSAFIfZGjA1N20R9u93yuB26Hw_Yg"}',0,CAST('2024-05-21 23:13:11.346' AS DATETIME),0) ;
+
+2024-05-21 23:13:11.4692 | INFO | 0HN3PL20S8929 | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-21 23:13:11.6271 | INFO | 0HN3PL20S892B | 127.0.0.1 | userName=admin | http://localhost/getRouters 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE ( [Status] = N'0' )  AND  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-21 23:13:11.6645 | INFO | 0HN3PL20S892C | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-21 23:13:13.7656 | INFO | 0HN3PL20S892E | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】SELECT COUNT(1) FROM [UserScore]  WHERE ( 1 = 1 ) 
+
+2024-05-21 23:13:13.7745 | INFO | 0HN3PL20S892E | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】SELECT * FROM (SELECT [Id],[UserId],[CourseId],[Score],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [UserScore]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-21 23:13:14.7972 | INFO | 0HN3PL20S892G | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-21 23:13:14.8118 | INFO | 0HN3PL20S892F | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc]  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-21 23:13:14.8118 | INFO | 0HN3PL20S892F | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】SELECT * FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc] ,ROW_NUMBER() OVER(ORDER BY ChapterName asc,[ChapterName] Asc) AS RowIndex  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-21 23:13:18.4474 | INFO | 0HN3PL20S892I | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-21 23:13:18.4597 | INFO | 0HN3PL20S892H | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish]  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-21 23:13:18.4597 | INFO | 0HN3PL20S892H | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】SELECT * FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-21 23:13:22.9279 | INFO | 0HN3PL20S892K | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/select 
+【db0 SQL】SELECT  [ChapeterId] AS [ChapeterId] , [ChapterName] AS [ChapterName]  FROM [Chapeter] 
+
+2024-05-21 23:13:22.9279 | INFO | 0HN3PL20S892J | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON ( [s].[ChapeterId] = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-21 23:13:22.9279 | INFO | 0HN3PL20S892J | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON ( [s].[ChapeterId] = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-21 23:13:25.4530 | INFO | 0HN3PL20S892L | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT [CourseId],[CourseName],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Course]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-21 23:13:25.4530 | INFO | 0HN3PL20S892L | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】SELECT * FROM (SELECT [CourseId],[CourseName],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted],ROW_NUMBER() OVER(ORDER BY [CourseId] Asc) AS RowIndex  FROM [Course]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-21 23:16:50.9087 | INFO | 0HN3PL20S892M | ::1 |  | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'E10ADC3949BA59ABBE56E057F20F883E')) ))
+
+2024-05-21 23:16:50.9656 | WARN | 0HN3PL20S892M | ::1 |  | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'0',N'127.0.0.1',N'0-内网IP-内网IP',N'Android 6.0 Nexus 5 Chrome Mobile 124.0.0',N'Android 6.0',N'登录成功',CAST('2024-05-21 23:16:50.913' AS DATETIME)) ;
+
+2024-05-21 23:16:50.9656 | WARN | 0HN3PL20S892M | ::1 |  | http://localhost/login 
+【db0 SQL】UPDATE [sys_user]  SET
+           [LoginIP]=N'127.0.0.1',[LoginDate]=CAST('2024-05-21 23:16:50.967' AS DATETIME)  WHERE [UserId]=1
+
+2024-05-21 23:16:50.9656 | WARN | 0HN3PL20S892M | ::1 |  | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'登录',0,N'SysLogin.Login()',N'POST',0,N'/login',N'127.0.0.1',N'0-内网IP-内网IP',N'{"username":"admin","password":"***"}',N'{  "code": 200,  "msg": "success",  "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkJlYXJlciJ9.eyJwcmltYXJ5c2lkIjoiMSIsIm5hbWVpZCI6IjEiLCJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiZ3JvdXBzaWQiOiIyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy91c2VyZGF0YSI6IntcIlVzZXJJZFwiOjEsXCJEZXB0SWRcIjoyLFwiVXNlck5hbWVcIjpcImFkbWluXCIsXCJSb2xlSWRzXCI6W1wiYWRtaW5cIl0sXCJSb2xlc1wiOlt7XCJSb2xlSWRcIjoxLFwiUm9sZUtleVwiOlwiYWRtaW5cIixcIkRhdGFTY29wZVwiOjF9XSxcIkV4cGlyZVRpbWVcIjpcIjAwMDEtMDEtMDFUMDA6MDA6MDBcIn0iLCJBdWRpZW5jZSI6IkJhc2VBZG1pbi5ORVQiLCJJc3N1ZXIiOiJCYXNlQWRtaW4uTkVUIiwibmJmIjoxNzE2MzA0NjEwLCJleHAiOjE3MTYzOTEwMTAsImlhdCI6MTcxNjMwNDYxMCwiaXNzIjoiQmFzZUFkbWluLk5FVCIsImF1ZCI6IkJhc2VBZG1pbi5ORVQifQ.v0LMBkQvrpPH68PEzixM96lUHiUdKxr5wcjzJeuAbBk"}',0,CAST('2024-05-21 23:16:50.972' AS DATETIME),0) ;
+
+2024-05-21 23:16:58.1679 | INFO | 0HN3PL20S892M | ::1 |  | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+

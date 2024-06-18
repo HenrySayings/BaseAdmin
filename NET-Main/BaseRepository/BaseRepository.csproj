@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="MySqlConnector" Version="2.3.1" />
+    <PackageReference Include="SqlSugar.IOC" Version="2.0.0" />
+    <PackageReference Include="SqlSugarCoreNoDrive" Version="5.1.4.143" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseInfrastructure\BaseInfrastructure.csproj" />
+    <ProjectReference Include="..\BaseModel\BaseModel.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,973 @@
+2024-05-25 15:41:02.6999 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 15:42:59.5138 | INFO | 0HN3SHOGSV5UE | 127.0.0.1 | userName= | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-25 15:42:59.7452 | WARN | 0HN3SHOGSV5UG | 127.0.0.1 | userName= | http://localhost/LogOut 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'注销',0,N'SysLogin.LogOut()',N'POST',0,N'',N'/LogOut',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": {    "name": null,    "id": 0  }}',0,CAST('2024-05-25 15:42:59.707' AS DATETIME),0) ;
+
+2024-05-25 15:43:00.0784 | INFO | 0HN3SHOGSV5UH | 127.0.0.1 |  | http://localhost/captchaImage 
+【db0 SQL】SELECT  TOP 1 [ConfigId],[ConfigName],[ConfigKey],[ConfigValue],[ConfigType],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_config]  WHERE ( [ConfigKey] = N'sys.account.captchaOnOff' )
+
+2024-05-25 15:43:00.7460 | WARN | 0HN3SHOGSV5UI | 127.0.0.1 |  | http://localhost/LogOut 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'注销',0,N'SysLogin.LogOut()',N'POST',0,N'/LogOut',N'127.0.0.1',N'0-内网IP-内网IP',N'{}',N'{  "code": 200,  "msg": "success",  "data": {    "name": null,    "id": 0  }}',0,CAST('2024-05-25 15:43:00.743' AS DATETIME),0) ;
+
+2024-05-25 15:43:01.2818 | INFO | 0HN3SHOGSV5UJ | 127.0.0.1 |  | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-25 15:43:01.4143 | INFO | 0HN3SHOGSV5UK | 127.0.0.1 |  | http://localhost/captchaImage 
+【db0 SQL】SELECT  TOP 1 [ConfigId],[ConfigName],[ConfigKey],[ConfigValue],[ConfigType],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_config]  WHERE ( [ConfigKey] = N'sys.account.captchaOnOff' )
+
+2024-05-25 15:43:05.3719 | INFO | 0HN3SHOGSV5UL | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [ConfigId],[ConfigName],[ConfigKey],[ConfigValue],[ConfigType],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_config]  WHERE ( [ConfigKey] = N'sys.account.captchaOnOff' )
+
+2024-05-25 15:43:05.3848 | WARN | 0HN3SHOGSV5UL | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'登录',0,N'SysLogin.Login()',N'POST',0,N'admin',N'/login',N'127.0.0.1',N'0-内网IP-内网IP',N'{"username":"admin","password":"***","code":"1","uuid":"42e8b7af4cf44f3990b397756ab7596d","clientId":"fde55877368a5d4735462d6073b87575"}',N'{  "code": 103,  "msg": "验证码错误"}',0,CAST('2024-05-25 15:43:05.384' AS DATETIME),0) ;
+
+2024-05-25 15:43:31.8773 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 15:43:39.8072 | INFO | 0HN3SHPI7MTDQ | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'e10adc3949ba59abbe56e057f20f883e')) ))
+
+2024-05-25 15:43:39.9066 | WARN | 0HN3SHPI7MTDQ | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'0',N'127.0.0.1',N'0-内网IP-内网IP',N'Windows 10 Other Edge 123.0.0',N'Windows 10',N'登录成功',CAST('2024-05-25 15:43:39.818' AS DATETIME)) ;
+
+2024-05-25 15:43:39.9519 | WARN | 0HN3SHPI7MTDQ | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】UPDATE [sys_user]  SET
+           [LoginIP]=N'127.0.0.1',[LoginDate]=CAST('2024-05-25 15:43:39.926' AS DATETIME)  WHERE [UserId]=1
+
+2024-05-25 15:43:39.9822 | INFO | 0HN3SHPI7MTDQ | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-25 15:43:40.1399 | WARN | 0HN3SHPI7MTDQ | 127.0.0.1 | userName=admin | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'登录',0,N'SysLogin.Login()',N'POST',0,N'admin',N'/login',N'127.0.0.1',N'0-内网IP-内网IP',N'{"username":"admin","password":"***","code":"1","uuid":"42e8b7af4cf44f3990b397756ab7596d","clientId":"fde55877368a5d4735462d6073b87575"}',N'{  "code": 200,  "msg": "success",  "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkJlYXJlciJ9.eyJwcmltYXJ5c2lkIjoiMSIsIm5hbWVpZCI6IjEiLCJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiZ3JvdXBzaWQiOiIyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy91c2VyZGF0YSI6IntcIlVzZXJJZFwiOjEsXCJEZXB0SWRcIjoyLFwiVXNlck5hbWVcIjpcImFkbWluXCIsXCJSb2xlSWRzXCI6W1wiYWRtaW5cIl0sXCJSb2xlc1wiOlt7XCJSb2xlSWRcIjoxLFwiUm9sZUtleVwiOlwiYWRtaW5cIixcIkRhdGFTY29wZVwiOjF9XSxcIkV4cGlyZVRpbWVcIjpcIjAwMDEtMDEtMDFUMDA6MDA6MDBcIn0iLCJBdWRpZW5jZSI6IkJhc2VBZG1pbi5ORVQiLCJJc3N1ZXIiOiJCYXNlQWRtaW4uTkVUIiwibmJmIjoxNzE2NjIzMDIwLCJleHAiOjE3MTY3MDk0MjAsImlhdCI6MTcxNjYyMzAyMCwiaXNzIjoiQmFzZUFkbWluLk5FVCIsImF1ZCI6IkJhc2VBZG1pbi5ORVQifQ.h9_AGJFVvU6lrFqUJ5H2K31wWUGGOlsG-TxccS7vD2g"}',0,CAST('2024-05-25 15:43:40.127' AS DATETIME),0) ;
+
+2024-05-25 15:43:40.3097 | INFO | 0HN3SHPI7MTDR | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-25 15:43:40.4964 | INFO | 0HN3SHPI7MTDT | 127.0.0.1 | userName=admin | http://localhost/getRouters 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE ( [Status] = N'0' )  AND  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-25 15:43:40.5206 | INFO | 0HN3SHPI7MTDU | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-25 15:43:43.8352 | INFO | 0HN3SHPI7MTE0 | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams]  FROM [UserScore]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 15:43:43.8410 | INFO | 0HN3SHPI7MTE0 | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】SELECT * FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [UserScore]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 15:43:47.8714 | INFO | 0HN3SHPI7MTE1 | 127.0.0.1 | userName=admin | http://localhost/tool/file/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT [Id],[RealName],[FileType],[FileName],[FileUrl],[StorePath],[FileSize],[FileExt],[Create_by],[Create_time],[StoreType],[AccessUrl] FROM [sys_file]  WHERE ( [StoreType] = 1 )) CountTable 
+
+2024-05-25 15:43:47.8714 | INFO | 0HN3SHPI7MTE1 | 127.0.0.1 | userName=admin | http://localhost/tool/file/list 
+【db0 SQL】SELECT * FROM (SELECT [Id],[RealName],[FileType],[FileName],[FileUrl],[StorePath],[FileSize],[FileExt],[Create_by],[Create_time],[StoreType],[AccessUrl],ROW_NUMBER() OVER(ORDER BY [Id] DESC) AS RowIndex  FROM [sys_file]  WHERE ( [StoreType] = 1 )) T WHERE RowIndex BETWEEN 1 AND 20
+
+2024-05-25 17:34:32.0521 | WARN | 0HN3SHPI7MTDU | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】INSERT INTO [UserOnlineLog]  
+           ([Id],[UserId],[OnlineTime],[TodayOnlineTime],[AddTime],[Location],[UserIP],[LoginTime],[Remark],[Platform])
+     VALUES
+           (1794301010454388736,1,110.86,110.86,CAST('2024-05-25 17:34:32.044' AS DATETIME),N'内网IP',N'127.0.0.1',CAST('2024-05-25 15:43:40.515' AS DATETIME),N'Windows 10 Other Edge 123.0.0',N'web') ;
+
+2024-05-25 23:05:10.0179 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 23:05:59.3610 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/login 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE (( [UserName] = N'admin' ) AND ((LOWER([Password])) = (LOWER(N'E10ADC3949BA59ABBE56E057F20F883E')) ))
+
+2024-05-25 23:05:59.4243 | WARN | 0HN3SPGIQCUJG | ::1 |  | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_logininfor]  
+           ([UserName],[Status],[Ipaddr],[LoginLocation],[Browser],[Os],[Msg],[LoginTime])
+     VALUES
+           (N'admin',N'0',N'127.0.0.1',N'0-内网IP-内网IP',N'Android 6.0 Nexus 5 Chrome Mobile 125.0.0',N'Android 6.0',N'登录成功',CAST('2024-05-25 23:05:59.371' AS DATETIME)) ;
+
+2024-05-25 23:05:59.4496 | WARN | 0HN3SPGIQCUJG | ::1 |  | http://localhost/login 
+【db0 SQL】UPDATE [sys_user]  SET
+           [LoginIP]=N'127.0.0.1',[LoginDate]=CAST('2024-05-25 23:05:59.430' AS DATETIME)  WHERE [UserId]=1
+
+2024-05-25 23:05:59.4693 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/login 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-25 23:05:59.5584 | WARN | 0HN3SPGIQCUJG | ::1 |  | http://localhost/login 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'登录',0,N'SysLogin.Login()',N'POST',0,N'/login',N'127.0.0.1',N'0-内网IP-内网IP',N'{"username":"admin","password":"***"}',N'{  "code": 200,  "msg": "success",  "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkJlYXJlciJ9.eyJwcmltYXJ5c2lkIjoiMSIsIm5hbWVpZCI6IjEiLCJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiZ3JvdXBzaWQiOiIyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy91c2VyZGF0YSI6IntcIlVzZXJJZFwiOjEsXCJEZXB0SWRcIjoyLFwiVXNlck5hbWVcIjpcImFkbWluXCIsXCJSb2xlSWRzXCI6W1wiYWRtaW5cIl0sXCJSb2xlc1wiOlt7XCJSb2xlSWRcIjoxLFwiUm9sZUtleVwiOlwiYWRtaW5cIixcIkRhdGFTY29wZVwiOjF9XSxcIkV4cGlyZVRpbWVcIjpcIjAwMDEtMDEtMDFUMDA6MDA6MDBcIn0iLCJBdWRpZW5jZSI6IkJhc2VBZG1pbi5ORVQiLCJJc3N1ZXIiOiJCYXNlQWRtaW4uTkVUIiwibmJmIjoxNzE2NjQ5NTU5LCJleHAiOjE3MTY3MzU5NTksImlhdCI6MTcxNjY0OTU1OSwiaXNzIjoiQmFzZUFkbWluLk5FVCIsImF1ZCI6IkJhc2VBZG1pbi5ORVQifQ.YsyPFkDpFRq9GIoOKwKfcDJWeW7MZbJVIkUM5FdHrmQ"}',0,CAST('2024-05-25 23:05:59.556' AS DATETIME),0) ;
+
+2024-05-25 23:06:01.6040 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/business/CourseService/GetUniCourses 
+【db0 SQL】SELECT  [PicUrl] AS [PicUrl] , [CourseName] AS [CourseName] , [CourseId] AS [CourseId]  FROM [Course] 
+
+2024-05-25 23:06:05.6264 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-25 23:06:11.4508 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [y].[CourseName] AS [Title]  FROM [Chapeter] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( [x].[CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [x].[ChapterName],[y].[CourseName] 
+
+2024-05-25 23:06:11.4689 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterName] AS [ChapeterName]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [ChapterName] ORDER BY [ChapeterName] DESC
+
+2024-05-25 23:06:11.4910 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterName] AS [ChapeterName]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )GROUP BY [ChapterName] ORDER BY [ChapeterName] DESC
+
+2024-05-25 23:06:11.5063 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第一章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-25 23:06:11.5112 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第二章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-25 23:06:11.5112 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第一章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-25 23:06:11.5112 | INFO | 0HN3SPGIQCUJG | ::1 |  | http://localhost/business/Chapeter/GetChapeterUnInfo 
+【db0 SQL】SELECT  [ChapterItemName] AS [ChapeterItemName] , [ChapterUrl] AS [FileUrl]  FROM [Chapeter]  WHERE ( [CourseId] = N'0893e990-d3a5-4f28-ad9e-1e7bff7c120b' )  AND ( [ChapterName] = N'第二章' )GROUP BY [ChapterName],[ChapterItemName],[ChapterUrl] ORDER BY [ChapeterItemName] DESC
+
+2024-05-25 23:08:13.1513 | INFO | 0HN3SPGIQCUJL | ::1 |  | http://localhost/business/Select/examlist 
+【db0 SQL】SELECT [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select] 
+
+2024-05-25 23:08:48.4025 | INFO | 0HN3SPGIQCUJM | 127.0.0.1 | userName= | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-25 23:08:48.6603 | INFO | 0HN3SPGIQCUJP | 127.0.0.1 | userName=admin | http://localhost/getRouters 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE ( [Status] = N'0' )  AND  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-25 23:08:48.6753 | INFO | 0HN3SPGIQCUJQ | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-25 23:08:53.3742 | INFO | 0HN3SPGIQCUJS | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/select 
+【db0 SQL】SELECT  [ChapeterId] AS [ChapeterId] , [ChapterName] AS [ChapterName]  FROM [Chapeter] 
+
+2024-05-25 23:08:53.4138 | INFO | 0HN3SPGIQCUJR | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:08:53.4179 | INFO | 0HN3SPGIQCUJR | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:08:56.4549 | ERROR | 0HN3SPGIQCUJT | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/88b3148e-7c42-4275-9b34-0006e54ebb68 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('88b3148e-7c42-4275-9b34-0006e54ebb68') 
+
+2024-05-25 23:08:56.4656 | WARN | 0HN3SPGIQCUJT | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/88b3148e-7c42-4275-9b34-0006e54ebb68 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/88b3148e-7c42-4275-9b34-0006e54ebb68',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:08:56.462' AS DATETIME),0) ;
+
+2024-05-25 23:08:56.4861 | INFO | 0HN3SPGIQCUJU | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:08:56.4861 | INFO | 0HN3SPGIQCUJU | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:08:57.9538 | INFO | 0HN3SPGIQCUJV | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:08:57.9538 | INFO | 0HN3SPGIQCUJV | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 11 AND 20
+
+2024-05-25 23:09:00.3876 | ERROR | 0HN3SPGIQCUK0 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/daca39c9-914d-4ba9-82ba-31e008b2f229 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('daca39c9-914d-4ba9-82ba-31e008b2f229') 
+
+2024-05-25 23:09:00.3876 | WARN | 0HN3SPGIQCUK0 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/daca39c9-914d-4ba9-82ba-31e008b2f229 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/daca39c9-914d-4ba9-82ba-31e008b2f229',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:00.394' AS DATETIME),0) ;
+
+2024-05-25 23:09:00.4170 | INFO | 0HN3SPGIQCUK1 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:00.4170 | INFO | 0HN3SPGIQCUK1 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 11 AND 20
+
+2024-05-25 23:09:02.8573 | ERROR | 0HN3SPGIQCUK2 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/19cf2985-7e71-49bc-892c-38a31caefb17 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('19cf2985-7e71-49bc-892c-38a31caefb17') 
+
+2024-05-25 23:09:02.8573 | WARN | 0HN3SPGIQCUK2 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/19cf2985-7e71-49bc-892c-38a31caefb17 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/19cf2985-7e71-49bc-892c-38a31caefb17',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:02.862' AS DATETIME),0) ;
+
+2024-05-25 23:09:02.8862 | INFO | 0HN3SPGIQCUK3 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:02.8862 | INFO | 0HN3SPGIQCUK3 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 11 AND 20
+
+2024-05-25 23:09:04.1383 | INFO | 0HN3SPGIQCUK4 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:04.1383 | INFO | 0HN3SPGIQCUK4 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 21 AND 30
+
+2024-05-25 23:09:06.5482 | ERROR | 0HN3SPGIQCUK5 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/409561eb-1b58-4bd7-8ccb-3da24752b652 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('409561eb-1b58-4bd7-8ccb-3da24752b652') 
+
+2024-05-25 23:09:06.5482 | WARN | 0HN3SPGIQCUK5 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/409561eb-1b58-4bd7-8ccb-3da24752b652 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/409561eb-1b58-4bd7-8ccb-3da24752b652',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:06.553' AS DATETIME),0) ;
+
+2024-05-25 23:09:06.5761 | INFO | 0HN3SPGIQCUK6 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:06.5761 | INFO | 0HN3SPGIQCUK6 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 21 AND 30
+
+2024-05-25 23:09:08.9947 | ERROR | 0HN3SPGIQCUK7 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/ca8cc92c-511f-43d9-9599-459a9c4f6d16 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('ca8cc92c-511f-43d9-9599-459a9c4f6d16') 
+
+2024-05-25 23:09:08.9947 | WARN | 0HN3SPGIQCUK7 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/ca8cc92c-511f-43d9-9599-459a9c4f6d16 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/ca8cc92c-511f-43d9-9599-459a9c4f6d16',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:09.008' AS DATETIME),0) ;
+
+2024-05-25 23:09:09.0288 | INFO | 0HN3SPGIQCUK8 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:09.0288 | INFO | 0HN3SPGIQCUK8 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 21 AND 30
+
+2024-05-25 23:09:10.5899 | INFO | 0HN3SPGIQCUK9 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:10.5899 | INFO | 0HN3SPGIQCUK9 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 31 AND 40
+
+2024-05-25 23:09:12.1580 | INFO | 0HN3SPGIQCUKA | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:12.1580 | INFO | 0HN3SPGIQCUKA | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 41 AND 50
+
+2024-05-25 23:09:15.0265 | ERROR | 0HN3SPGIQCUKB | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/fa33a567-a8f8-45fa-ad47-6bdef7ddeb15 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('fa33a567-a8f8-45fa-ad47-6bdef7ddeb15') 
+
+2024-05-25 23:09:15.0265 | WARN | 0HN3SPGIQCUKB | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/fa33a567-a8f8-45fa-ad47-6bdef7ddeb15 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/fa33a567-a8f8-45fa-ad47-6bdef7ddeb15',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:15.030' AS DATETIME),0) ;
+
+2024-05-25 23:09:15.0592 | INFO | 0HN3SPGIQCUKC | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:15.0592 | INFO | 0HN3SPGIQCUKC | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 41 AND 50
+
+2024-05-25 23:09:17.1677 | ERROR | 0HN3SPGIQCUKD | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/7f09b2aa-7676-4d3a-939b-60f5e19fe3bf 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('7f09b2aa-7676-4d3a-939b-60f5e19fe3bf') 
+
+2024-05-25 23:09:17.1828 | WARN | 0HN3SPGIQCUKD | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/7f09b2aa-7676-4d3a-939b-60f5e19fe3bf 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/7f09b2aa-7676-4d3a-939b-60f5e19fe3bf',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:17.182' AS DATETIME),0) ;
+
+2024-05-25 23:09:17.2048 | INFO | 0HN3SPGIQCUKE | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:17.2048 | INFO | 0HN3SPGIQCUKE | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 41 AND 50
+
+2024-05-25 23:09:18.3080 | INFO | 0HN3SPGIQCUKF | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:18.3080 | INFO | 0HN3SPGIQCUKF | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 51 AND 60
+
+2024-05-25 23:09:19.6542 | INFO | 0HN3SPGIQCUKG | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:19.6542 | INFO | 0HN3SPGIQCUKG | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 61 AND 70
+
+2024-05-25 23:09:22.3228 | ERROR | 0HN3SPGIQCUKH | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/3fd5d6d8-3996-49a4-92f4-79b023a837cd 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('3fd5d6d8-3996-49a4-92f4-79b023a837cd') 
+
+2024-05-25 23:09:22.3228 | WARN | 0HN3SPGIQCUKH | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/3fd5d6d8-3996-49a4-92f4-79b023a837cd 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/3fd5d6d8-3996-49a4-92f4-79b023a837cd',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:22.337' AS DATETIME),0) ;
+
+2024-05-25 23:09:22.3562 | INFO | 0HN3SPGIQCUKI | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:22.3562 | INFO | 0HN3SPGIQCUKI | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 61 AND 70
+
+2024-05-25 23:09:24.7169 | ERROR | 0HN3SPGIQCUKJ | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/925ccffc-b5c8-43f3-97cd-7cbce3328b77 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('925ccffc-b5c8-43f3-97cd-7cbce3328b77') 
+
+2024-05-25 23:09:24.7169 | WARN | 0HN3SPGIQCUKJ | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/925ccffc-b5c8-43f3-97cd-7cbce3328b77 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/925ccffc-b5c8-43f3-97cd-7cbce3328b77',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:24.723' AS DATETIME),0) ;
+
+2024-05-25 23:09:24.7454 | INFO | 0HN3SPGIQCUKK | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:24.7454 | INFO | 0HN3SPGIQCUKK | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 61 AND 70
+
+2024-05-25 23:09:26.4990 | ERROR | 0HN3SPGIQCUKL | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/6871f4ae-8472-418c-a81d-7f85e3d5766f 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('6871f4ae-8472-418c-a81d-7f85e3d5766f') 
+
+2024-05-25 23:09:26.5102 | WARN | 0HN3SPGIQCUKL | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/6871f4ae-8472-418c-a81d-7f85e3d5766f 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/6871f4ae-8472-418c-a81d-7f85e3d5766f',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:26.510' AS DATETIME),0) ;
+
+2024-05-25 23:09:26.5263 | INFO | 0HN3SPGIQCUKM | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:26.5263 | INFO | 0HN3SPGIQCUKM | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 61 AND 70
+
+2024-05-25 23:09:28.8545 | ERROR | 0HN3SPGIQCUKN | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/e3690f50-d1d6-44f7-8d47-8398bca0868a 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('e3690f50-d1d6-44f7-8d47-8398bca0868a') 
+
+2024-05-25 23:09:28.8545 | WARN | 0HN3SPGIQCUKN | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/e3690f50-d1d6-44f7-8d47-8398bca0868a 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/e3690f50-d1d6-44f7-8d47-8398bca0868a',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:28.856' AS DATETIME),0) ;
+
+2024-05-25 23:09:28.8760 | INFO | 0HN3SPGIQCUKO | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:28.8760 | INFO | 0HN3SPGIQCUKO | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 61 AND 70
+
+2024-05-25 23:09:30.3537 | INFO | 0HN3SPGIQCUKP | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:30.3537 | INFO | 0HN3SPGIQCUKP | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 71 AND 80
+
+2024-05-25 23:09:31.5897 | INFO | 0HN3SPGIQCUKQ | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:31.5897 | INFO | 0HN3SPGIQCUKQ | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 81 AND 90
+
+2024-05-25 23:09:34.9977 | ERROR | 0HN3SPGIQCUKR | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/a41e1d72-4c66-43a5-8285-9f5d8c3e7b22 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('a41e1d72-4c66-43a5-8285-9f5d8c3e7b22') 
+
+2024-05-25 23:09:34.9977 | WARN | 0HN3SPGIQCUKR | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/a41e1d72-4c66-43a5-8285-9f5d8c3e7b22 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/a41e1d72-4c66-43a5-8285-9f5d8c3e7b22',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:35.008' AS DATETIME),0) ;
+
+2024-05-25 23:09:35.0268 | INFO | 0HN3SPGIQCUKS | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:35.0268 | INFO | 0HN3SPGIQCUKS | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 81 AND 90
+
+2024-05-25 23:09:36.8703 | ERROR | 0HN3SPGIQCUKT | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/40b17405-36e7-4d39-9f58-9a793834e73e 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('40b17405-36e7-4d39-9f58-9a793834e73e') 
+
+2024-05-25 23:09:36.8703 | WARN | 0HN3SPGIQCUKT | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/40b17405-36e7-4d39-9f58-9a793834e73e 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/40b17405-36e7-4d39-9f58-9a793834e73e',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:36.874' AS DATETIME),0) ;
+
+2024-05-25 23:09:36.8857 | INFO | 0HN3SPGIQCUKU | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:36.8857 | INFO | 0HN3SPGIQCUKU | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 81 AND 90
+
+2024-05-25 23:09:39.3853 | ERROR | 0HN3SPGIQCUKV | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/3d091a9b-0ac3-403c-97c9-a34f97727bdb 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('3d091a9b-0ac3-403c-97c9-a34f97727bdb') 
+
+2024-05-25 23:09:39.3853 | WARN | 0HN3SPGIQCUKV | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/3d091a9b-0ac3-403c-97c9-a34f97727bdb 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/3d091a9b-0ac3-403c-97c9-a34f97727bdb',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:39.387' AS DATETIME),0) ;
+
+2024-05-25 23:09:39.4056 | INFO | 0HN3SPGIQCUL0 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:39.4056 | INFO | 0HN3SPGIQCUL0 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 81 AND 90
+
+2024-05-25 23:09:42.3895 | ERROR | 0HN3SPGIQCUL1 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/e1c6751b-f18b-49ab-a15f-a6637f480972 
+【db0 SQL】DELETE FROM [Select] WHERE [SelectId] IN ('e1c6751b-f18b-49ab-a15f-a6637f480972') 
+
+2024-05-25 23:09:42.3895 | WARN | 0HN3SPGIQCUL1 | 127.0.0.1 | userName=admin | http://localhost/business/Select/delete/e1c6751b-f18b-49ab-a15f-a6637f480972 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',3,N'Select.DeleteSelect()',N'DELETE',0,N'admin',N'/business/Select/delete/e1c6751b-f18b-49ab-a15f-a6637f480972',N'127.0.0.1',N'0-内网IP-内网IP',N'',N'{  "code": 200,  "msg": "success",  "data": "删除成功"}',0,CAST('2024-05-25 23:09:42.394' AS DATETIME),0) ;
+
+2024-05-25 23:09:42.4164 | INFO | 0HN3SPGIQCUL2 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:09:42.4164 | INFO | 0HN3SPGIQCUL2 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [s].[IsSingle] AS [IsSingle] , [c].[ChapterItemName] AS [ChapterItem] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 81 AND 90
+
+2024-05-25 23:09:44.4193 | INFO | 0HN3SPGIQCUL3 | 127.0.0.1 | userName=admin | http://localhost/business/Select/b9aaf040-47de-46ef-be60-af6e9d14a2c5 
+【db0 SQL】SELECT  TOP 1 [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select]  WHERE ( [SelectId] = N'b9aaf040-47de-46ef-be60-af6e9d14a2c5' )
+
+2024-05-25 23:09:49.3775 | WARN | 0HN3SPGIQCUL4 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'c#程序中使用继承的优点有哪些（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'03b81e24-359a-4475-83db-55d974d36311',[OptionA]=N'提高部分模块代码的复用性',[OptionB]=N'提高部分模块代码的扩展性',[OptionC]=N'提高软件的开发效率',[OptionD]=N'提高代码的运行速度',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:09:49.375' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'21c5ca05-82f2-4c22-8ae8-7e84afa533ac'
+
+2024-05-25 23:09:49.3775 | WARN | 0HN3SPGIQCUL4 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"545b07be-f097-4177-a3e7-2ff986e0338d","question":"c#程序中使用继承的优点有哪些（）","answer":"A","isSingle":false,"chapeterId":"03b81e24-359a-4475-83db-55d974d36311","optionA":"提高部分模块代码的复用性","optionB":"提高部分模块代码的扩展性","optionC":"提高软件的开发效率","optionD":"提高代码的运行速度"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:09:49.381' AS DATETIME),0) ;
+
+2024-05-25 23:10:00.0917 | WARN | 0HN3SPGIQCUL5 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'c#程序中使用继承的优点有哪些（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'03b81e24-359a-4475-83db-55d974d36311',[OptionA]=N'提高部分模块代码的复用性',[OptionB]=N'提高部分模块代码的扩展性',[OptionC]=N'提高软件的开发效率',[OptionD]=N'提高代码的运行速度',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:10:00.100' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'45ebe568-b350-4a46-9c10-8f5c543631ef'
+
+2024-05-25 23:10:00.0917 | WARN | 0HN3SPGIQCUL5 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"545b07be-f097-4177-a3e7-2ff986e0338d","question":"c#程序中使用继承的优点有哪些（）","answer":"A","isSingle":false,"chapeterId":"03b81e24-359a-4475-83db-55d974d36311","optionA":"提高部分模块代码的复用性","optionB":"提高部分模块代码的扩展性","optionC":"提高软件的开发效率","optionD":"提高代码的运行速度"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:10:00.102' AS DATETIME),0) ;
+
+2024-05-25 23:10:07.7916 | WARN | 0HN3SPGIQCUL6 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'c#程序中使用继承的优点有哪些（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'03b81e24-359a-4475-83db-55d974d36311',[OptionA]=N'提高部分模块代码的复用性',[OptionB]=N'提高部分模块代码的扩展性',[OptionC]=N'提高软件的开发效率',[OptionD]=N'提高代码的运行速度',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:10:07.801' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'32f070db-a6b8-400d-9558-c5761b38a04c'
+
+2024-05-25 23:10:07.7916 | WARN | 0HN3SPGIQCUL6 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"545b07be-f097-4177-a3e7-2ff986e0338d","question":"c#程序中使用继承的优点有哪些（）","answer":"A","isSingle":false,"chapeterId":"03b81e24-359a-4475-83db-55d974d36311","optionA":"提高部分模块代码的复用性","optionB":"提高部分模块代码的扩展性","optionC":"提高软件的开发效率","optionD":"提高代码的运行速度"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:10:07.804' AS DATETIME),0) ;
+
+2024-05-25 23:10:08.4324 | WARN | 0HN3SPGIQCUL7 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'c#程序中使用继承的优点有哪些（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'03b81e24-359a-4475-83db-55d974d36311',[OptionA]=N'提高部分模块代码的复用性',[OptionB]=N'提高部分模块代码的扩展性',[OptionC]=N'提高软件的开发效率',[OptionD]=N'提高代码的运行速度',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:10:08.431' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'da9c43c7-79d4-499d-8533-837ae253ece3'
+
+2024-05-25 23:10:08.4324 | WARN | 0HN3SPGIQCUL7 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"545b07be-f097-4177-a3e7-2ff986e0338d","question":"c#程序中使用继承的优点有哪些（）","answer":"A","isSingle":false,"chapeterId":"03b81e24-359a-4475-83db-55d974d36311","optionA":"提高部分模块代码的复用性","optionB":"提高部分模块代码的扩展性","optionC":"提高软件的开发效率","optionD":"提高代码的运行速度"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:10:08.433' AS DATETIME),0) ;
+
+2024-05-25 23:10:08.6191 | WARN | 0HN3SPGIQCUL8 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'c#程序中使用继承的优点有哪些（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'03b81e24-359a-4475-83db-55d974d36311',[OptionA]=N'提高部分模块代码的复用性',[OptionB]=N'提高部分模块代码的扩展性',[OptionC]=N'提高软件的开发效率',[OptionD]=N'提高代码的运行速度',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:10:08.629' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'e4034b91-ae61-4a2b-b46f-f1db724a384d'
+
+2024-05-25 23:10:08.6191 | WARN | 0HN3SPGIQCUL8 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"545b07be-f097-4177-a3e7-2ff986e0338d","question":"c#程序中使用继承的优点有哪些（）","answer":"A","isSingle":false,"chapeterId":"03b81e24-359a-4475-83db-55d974d36311","optionA":"提高部分模块代码的复用性","optionB":"提高部分模块代码的扩展性","optionC":"提高软件的开发效率","optionD":"提高代码的运行速度"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:10:08.631' AS DATETIME),0) ;
+
+2024-05-25 23:10:12.7293 | WARN | 0HN3SPGIQCUL9 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'c#程序中使用继承的优点有哪些（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'提高部分模块代码的复用性',[OptionB]=N'提高部分模块代码的扩展性',[OptionC]=N'提高软件的开发效率',[OptionD]=N'提高代码的运行速度',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:10:12.728' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'4cca7628-151f-4a95-a9c2-c8d333b84e1b'
+
+2024-05-25 23:10:12.7293 | WARN | 0HN3SPGIQCUL9 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"545b07be-f097-4177-a3e7-2ff986e0338d","question":"c#程序中使用继承的优点有哪些（）","answer":"A","isSingle":false,"chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"提高部分模块代码的复用性","optionB":"提高部分模块代码的扩展性","optionC":"提高软件的开发效率","optionD":"提高代码的运行速度"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:10:12.730' AS DATETIME),0) ;
+
+2024-05-25 23:10:31.5887 | WARN | 0HN3SPGIQCULA | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'c#程序中使用继承的优点有哪些（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'提高部分模块代码的复用性',[OptionB]=N'提高部分模块代码的扩展性',[OptionC]=N'提高软件的开发效率',[OptionD]=N'提高代码的运行速度',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:10:31.587' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'7f131013-1ec0-4c7e-83e1-454d2235e478'
+
+2024-05-25 23:10:31.5887 | WARN | 0HN3SPGIQCULA | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"545b07be-f097-4177-a3e7-2ff986e0338d","question":"c#程序中使用继承的优点有哪些（）","answer":"A","isSingle":false,"chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"提高部分模块代码的复用性","optionB":"提高部分模块代码的扩展性","optionC":"提高软件的开发效率","optionD":"提高代码的运行速度"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:10:31.592' AS DATETIME),0) ;
+
+2024-05-25 23:11:11.7025 | WARN | 0HN3SPGIQCULB | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'c#程序中使用继承的优点有哪些（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'提高部分模块代码的复用性',[OptionB]=N'提高部分模块代码的扩展性',[OptionC]=N'提高软件的开发效率',[OptionD]=N'提高代码的运行速度',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:11:00.876' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'b2934618-d70e-4c70-b6ed-5b4b0df9342e'
+
+2024-05-25 23:11:21.8348 | WARN | 0HN3SPGIQCULB | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"545b07be-f097-4177-a3e7-2ff986e0338d","question":"c#程序中使用继承的优点有哪些（）","answer":"A","isSingle":false,"chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"提高部分模块代码的复用性","optionB":"提高部分模块代码的扩展性","optionC":"提高软件的开发效率","optionD":"提高代码的运行速度"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:11:21.835' AS DATETIME),0) ;
+
+2024-05-25 23:13:25.1049 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 23:17:18.8427 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 23:17:27.2490 | INFO | 0HN3SPN4KLVVM | 127.0.0.1 | userName= | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-25 23:17:27.3931 | INFO | 0HN3SPN4KLVVN | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-25 23:17:27.4170 | INFO | 0HN3SPN4KLVVN | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-25 23:17:27.6761 | INFO | 0HN3SPN4KLVVP | 127.0.0.1 | userName=admin | http://localhost/getRouters 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE ( [Status] = N'0' )  AND  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-25 23:17:27.7523 | INFO | 0HN3SPN4KLVVQ | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-25 23:17:28.1530 | INFO | 0HN3SPN4KLVVS | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/select 
+【db0 SQL】SELECT  [ChapeterId] AS [ChapeterId] , [ChapterName] AS [ChapterName]  FROM [Chapeter] 
+
+2024-05-25 23:17:28.1813 | INFO | 0HN3SPN4KLVVR | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:17:28.1857 | INFO | 0HN3SPN4KLVVR | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:21:01.9088 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 23:21:25.9835 | INFO | 0HN3SPPBPTSI1 | 127.0.0.1 | userName= | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-25 23:21:26.1323 | INFO | 0HN3SPPBPTSI2 | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-25 23:21:26.1544 | INFO | 0HN3SPPBPTSI2 | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-25 23:21:26.3964 | INFO | 0HN3SPPBPTSI4 | 127.0.0.1 | userName=admin | http://localhost/getRouters 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE ( [Status] = N'0' )  AND  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-25 23:21:26.4323 | INFO | 0HN3SPPBPTSI5 | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-25 23:21:26.8782 | INFO | 0HN3SPPBPTSI7 | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/select 
+【db0 SQL】SELECT  [ChapeterId] AS [ChapeterId] , [ChapterName] AS [ChapterName]  FROM [Chapeter] 
+
+2024-05-25 23:21:26.8943 | INFO | 0HN3SPPBPTSI6 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:21:26.8943 | INFO | 0HN3SPPBPTSI6 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:21:28.7324 | INFO | 0HN3SPPBPTSI8 | 127.0.0.1 | userName=admin | http://localhost/business/Select/420f5677-2fb6-40c8-ad40-0378d0397c1f 
+【db0 SQL】SELECT  TOP 1 [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select]  WHERE ( [SelectId] = N'420f5677-2fb6-40c8-ad40-0378d0397c1f' )
+
+2024-05-25 23:21:33.5935 | WARN | 0HN3SPPBPTSI9 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:21:33.564' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'83004f99-16ef-42bd-bf91-800ed2620133'
+
+2024-05-25 23:21:33.6253 | WARN | 0HN3SPPBPTSI9 | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"c72138b7-b62f-48c2-b2a7-b6b88a9fa56a","question":"能将元素添加到 ArrayList 结尾处的方法是（）","answer":"A","chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:21:33.600' AS DATETIME),0) ;
+
+2024-05-25 23:23:44.4950 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 23:24:20.2019 | WARN | 0HN3SPQO14CVF | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:24:04.433' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'bff3aa33-0482-4c7d-a723-ce12a081854a'
+
+2024-05-25 23:24:20.2875 | WARN | 0HN3SPQO14CVF | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"c72138b7-b62f-48c2-b2a7-b6b88a9fa56a","question":"能将元素添加到 ArrayList 结尾处的方法是（）","answer":"A","chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:24:20.265' AS DATETIME),0) ;
+
+2024-05-25 23:25:15.7122 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 23:26:20.2938 | WARN | 0HN3SPS030KDO | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:26:14.975' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'd2868599-a0db-46b8-9dc3-c7980b788740'
+
+2024-05-25 23:27:11.3387 | WARN | 0HN3SPS030KDO | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"c72138b7-b62f-48c2-b2a7-b6b88a9fa56a","question":"能将元素添加到 ArrayList 结尾处的方法是（）","answer":"A","chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:27:00.498' AS DATETIME),0) ;
+
+2024-05-25 23:28:48.5644 | WARN | 0HN3SPS030KDP | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:28:15.465' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'faaee4f4-46da-4432-b31d-272498ddff93'
+
+2024-05-25 23:29:13.5217 | WARN | 0HN3SPS030KDP | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"c72138b7-b62f-48c2-b2a7-b6b88a9fa56a","question":"能将元素添加到 ArrayList 结尾处的方法是（）","answer":"A","chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:29:13.521' AS DATETIME),0) ;
+
+2024-05-25 23:29:19.5902 | WARN | 0HN3SPS030KDQ | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）11',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:29:19.589' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'cf9a671f-da42-42ac-9cfa-a56e101978cd'
+
+2024-05-25 23:29:19.5902 | WARN | 0HN3SPS030KDQ | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"c72138b7-b62f-48c2-b2a7-b6b88a9fa56a","question":"能将元素添加到 ArrayList 结尾处的方法是（）11","answer":"A","chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:29:19.594' AS DATETIME),0) ;
+
+2024-05-25 23:29:55.5632 | WARN | 0HN3SPS030KDR | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'72d8a97a-b34b-4ba3-a1e8-4ddd297ff4c7',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:29:38.681' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'e8389015-46f4-409a-a235-f89460d40117'
+
+2024-05-25 23:30:35.3391 | WARN | 0HN3SPS030KDR | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"c72138b7-b62f-48c2-b2a7-b6b88a9fa56a","question":"能将元素添加到 ArrayList 结尾处的方法是（）","answer":"A","chapeterId":"72d8a97a-b34b-4ba3-a1e8-4ddd297ff4c7","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:30:35.337' AS DATETIME),0) ;
+
+2024-05-25 23:31:54.4351 | WARN | 0HN3SPS030KDS | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'72d8a97a-b34b-4ba3-a1e8-4ddd297ff4c7',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:31:52.807' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'1c2507f5-7d00-469c-bff5-17afd741bf32'
+
+2024-05-25 23:32:06.1739 | WARN | 0HN3SPS030KDS | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"c72138b7-b62f-48c2-b2a7-b6b88a9fa56a","question":"能将元素添加到 ArrayList 结尾处的方法是（）","answer":"A","chapeterId":"72d8a97a-b34b-4ba3-a1e8-4ddd297ff4c7","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 1,  "msg": "操作失败"}',0,CAST('2024-05-25 23:32:06.174' AS DATETIME),0) ;
+
+2024-05-25 23:36:45.4207 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 23:37:13.9079 | INFO | 0HN3SQ26ANA0V | 127.0.0.1 | userName=admin | http://localhost/business/Select/420f5677-2fb6-40c8-ad40-0378d0397c1f 
+【db0 SQL】SELECT  TOP 1 [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select]  WHERE ( [SelectId] = N'420f5677-2fb6-40c8-ad40-0378d0397c1f' )
+
+2024-05-25 23:41:29.6877 | INFO |  |  |  |  
+【db0 SQL】SELECT [DictType] FROM [sys_dict_type]  WHERE ( [Status] = N'0' )
+
+2024-05-25 23:41:44.6212 | INFO | 0HN3SQ4MD9K1N | 127.0.0.1 | userName=admin | http://localhost/business/Select/420f5677-2fb6-40c8-ad40-0378d0397c1f 
+【db0 SQL】SELECT  TOP 1 [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select]  WHERE ( [SelectId] = N'420f5677-2fb6-40c8-ad40-0378d0397c1f' )
+
+2024-05-25 23:41:52.1330 | WARN | 0HN3SQ4MD9K1O | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'60208fb3-71d0-4021-8de3-6e090b267e17',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:41:52.115' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'420f5677-2fb6-40c8-ad40-0378d0397c1f'
+
+2024-05-25 23:41:52.1824 | WARN | 0HN3SQ4MD9K1O | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"420f5677-2fb6-40c8-ad40-0378d0397c1f","question":"能将元素添加到 ArrayList 结尾处的方法是（）","answer":"A","chapeterId":"60208fb3-71d0-4021-8de3-6e090b267e17","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 200,  "msg": "success"}',0,CAST('2024-05-25 23:41:52.165' AS DATETIME),0) ;
+
+2024-05-25 23:41:52.2499 | INFO | 0HN3SQ4MD9K1P | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:41:52.2499 | INFO | 0HN3SQ4MD9K1P | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:00.8706 | INFO | 0HN3SQ4MD9K1Q | 127.0.0.1 | userName=admin | http://localhost/business/Select/420f5677-2fb6-40c8-ad40-0378d0397c1f 
+【db0 SQL】SELECT  TOP 1 [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select]  WHERE ( [SelectId] = N'420f5677-2fb6-40c8-ad40-0378d0397c1f' )
+
+2024-05-25 23:42:12.7546 | WARN | 0HN3SQ4MD9K1R | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】UPDATE [Select]  SET
+           [Question]=N'能将元素添加到 ArrayList 结尾处的方法是（）',[Answer]=N'A',[IsSingle]=0,[ChapeterId]=N'72d8a97a-b34b-4ba3-a1e8-4ddd297ff4c7',[OptionA]=N'Add',[OptionB]=N'Remove',[OptionC]=N'Insert',[OptionD]=N'InsertAfter',[CreateTime]=CAST('1900-01-01 00:00:00.000' AS DATETIME),[UpdateUser]=N'admin',[UpdateTime]=CAST('2024-05-25 23:42:12.753' AS DATETIME),[IsDeleted]=0  WHERE [SelectId]=N'420f5677-2fb6-40c8-ad40-0378d0397c1f'
+
+2024-05-25 23:42:12.7603 | WARN | 0HN3SQ4MD9K1R | 127.0.0.1 | userName=admin | http://localhost/business/Select 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'选择题/多选题',2,N'Select.UpdateSelect()',N'PUT',0,N'admin',N'/business/Select',N'127.0.0.1',N'0-内网IP-内网IP',N'{"selectId":"420f5677-2fb6-40c8-ad40-0378d0397c1f","question":"能将元素添加到 ArrayList 结尾处的方法是（）","answer":"A","chapeterId":"72d8a97a-b34b-4ba3-a1e8-4ddd297ff4c7","optionA":"Add","optionB":"Remove","optionC":"Insert","optionD":"InsertAfter"}',N'{  "code": 200,  "msg": "success"}',0,CAST('2024-05-25 23:42:12.756' AS DATETIME),0) ;
+
+2024-05-25 23:42:12.8075 | INFO | 0HN3SQ4MD9K1S | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:12.8075 | INFO | 0HN3SQ4MD9K1S | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:15.5944 | INFO | 0HN3SQ4MD9K1T | 127.0.0.1 | userName=admin | http://localhost/business/Select/420f5677-2fb6-40c8-ad40-0378d0397c1f 
+【db0 SQL】SELECT  TOP 1 [SelectId],[Question],[Answer],[IsSingle],[ChapeterId],[OptionA],[OptionB],[OptionC],[OptionD],[Ideas],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Select]  WHERE ( [SelectId] = N'420f5677-2fb6-40c8-ad40-0378d0397c1f' )
+
+2024-05-25 23:42:26.8894 | INFO | 0HN3SQ4MD9K1U | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:26.8894 | INFO | 0HN3SQ4MD9K1U | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:27.8610 | INFO | 0HN3SQ4MD9K1V | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:27.8610 | INFO | 0HN3SQ4MD9K1V | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:28.0802 | INFO | 0HN3SQ4MD9K20 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:28.0802 | INFO | 0HN3SQ4MD9K20 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:28.2836 | INFO | 0HN3SQ4MD9K21 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:28.2836 | INFO | 0HN3SQ4MD9K21 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:28.4955 | INFO | 0HN3SQ4MD9K22 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:28.4955 | INFO | 0HN3SQ4MD9K22 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:28.9713 | INFO | 0HN3SQ4MD9K23 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:28.9713 | INFO | 0HN3SQ4MD9K23 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:29.8655 | INFO | 0HN3SQ4MD9K24 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:29.8655 | INFO | 0HN3SQ4MD9K24 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:30.1196 | INFO | 0HN3SQ4MD9K25 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:30.1196 | INFO | 0HN3SQ4MD9K25 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:30.3451 | INFO | 0HN3SQ4MD9K26 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:30.3451 | INFO | 0HN3SQ4MD9K26 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:34.5039 | INFO | 0HN3SQ4MD9K27 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:34.5039 | INFO | 0HN3SQ4MD9K27 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:35.9360 | INFO | 0HN3SQ4MD9K28 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:35.9360 | INFO | 0HN3SQ4MD9K28 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:36.1443 | INFO | 0HN3SQ4MD9K29 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:42:36.1443 | INFO | 0HN3SQ4MD9K29 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:56.9551 | INFO | 0HN3SQ4MD9K2B | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-25 23:42:56.9787 | INFO | 0HN3SQ4MD9K2A | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish]  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:42:56.9787 | INFO | 0HN3SQ4MD9K2A | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】SELECT * FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:42:58.4496 | INFO | 0HN3SQ4MD9K2C | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams]  FROM [UserScore]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:42:58.4496 | INFO | 0HN3SQ4MD9K2C | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】SELECT * FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [UserScore]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:43:00.2136 | INFO | 0HN3SQ4MD9K2D | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams]  FROM [UserScore]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:43:00.2136 | INFO | 0HN3SQ4MD9K2D | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】SELECT * FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [UserScore]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:43:01.4474 | INFO | 0HN3SQ4MD9K2F | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-25 23:43:01.4474 | INFO | 0HN3SQ4MD9K2E | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc]  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:43:01.4474 | INFO | 0HN3SQ4MD9K2E | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】SELECT * FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc] ,ROW_NUMBER() OVER(ORDER BY ChapterName asc,[ChapterName] Asc) AS RowIndex  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:43:15.8572 | ERROR | 0HN3SQ4MD9K2G | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【错误SQL】INSERT INTO [sys_oper_log]  
+           ([BusinessType],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[ErrorMsg],[OperTime],[Elapsed])
+     VALUES
+           (0,N'GET',0,N'admin',N'/business/Chapeter/list',N'127.0.0.1',N'0 内网IP',N'?pageNum=1&pageSize=10&sort=ChapterName&sortType=asc&chapterName=%E7%AC%AC%E4%BA%8C',N'{
+  "code": 500,
+  "msg": "服务器好像出了点问题，请联系系统管理员..."
+}',1,N'中文提示 : 多表查询存在别名不一致,请把Where中的it改成c就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样
+English Message : Join c needs to be the same as Where it',CAST('2024-05-25 23:43:15.839' AS DATETIME),0) ;
+
+字符串或二进制数据将在表“MiniBaseAdmins.dbo.sys_oper_log”，列“ErrorMsg”中被截断。截断值:“中文提示 : 多表查询存在别名不一致,请把Where中的it改成c就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable()”。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+2024-05-25 23:43:21.6514 | INFO | 0HN3SQ4MD9K2H | 127.0.0.1 | userName= | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-25 23:43:21.7642 | INFO | 0HN3SQ4MD9K2I | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT  TOP 1 [UserId],[UserName],[NickName],[UserType],[Avatar],[Email],[Password],[Phonenumber],[Sex],[Status],[DelFlag],[LoginIP],[LoginDate],[DeptId],[Province],[City],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_user]  WHERE ( [UserId] = 1 )
+
+2024-05-25 23:43:21.7759 | INFO | 0HN3SQ4MD9K2I | 127.0.0.1 | userName= | http://localhost/getInfo 
+【db0 SQL】SELECT [r].* FROM [sys_user_role] [ur] Left JOIN [sys_role] [r] ON ( [ur].[role_id] = [r].[RoleId] )   WHERE (( [ur].[user_id] = 1 ) AND ( [r].[RoleId] > 0 ))
+
+2024-05-25 23:43:21.9676 | INFO | 0HN3SQ4MD9K2K | 127.0.0.1 | userName=admin | http://localhost/getRouters 
+【db0 SQL】SELECT [MenuId],[MenuName],[ParentId],[OrderNum],[Path],[Component],[IsCache],[IsFrame],[MenuType],[Visible],[Status],[Perms],[Icon],[menuName_key],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_menu]  WHERE ( [Status] = N'0' )  AND  ([MenuType] IN ('M','C')) ORDER BY [ParentId],[OrderNum]
+
+2024-05-25 23:43:21.9980 | INFO | 0HN3SQ4MD9K2L | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-25 23:43:22.2327 | INFO | 0HN3SQ4MD9K2M | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc]  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:43:22.2327 | INFO | 0HN3SQ4MD9K2M | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】SELECT * FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc] ,ROW_NUMBER() OVER(ORDER BY ChapterName asc,[ChapterName] Asc) AS RowIndex  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:43:22.2642 | INFO | 0HN3SQ4MD9K2N | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-25 23:44:34.2891 | WARN | 0HN3SQ4MD9K2L | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】INSERT INTO [UserOnlineLog]  
+           ([Id],[UserId],[OnlineTime],[TodayOnlineTime],[AddTime],[Location],[UserIP],[LoginTime],[Remark],[Platform])
+     VALUES
+           (1794394133390041088,1,1.2,1.2,CAST('2024-05-25 23:44:34.281' AS DATETIME),N'内网IP',N'127.0.0.1',CAST('2024-05-25 23:43:21.993' AS DATETIME),N'Windows 10 Other Edge 123.0.0',N'web') ;
+
+2024-05-25 23:44:34.8798 | INFO | 0HN3SQ4MD9K2O | 127.0.0.1 | userName= | http://localhost/system/CommonLang/list/zh-cn 
+【db0 SQL】SELECT [Id],[lang_code],[lang_key],[lang_name],[Addtime] FROM [sys_common_lang]  WHERE ( [lang_code] = N'zh-cn' )
+
+2024-05-25 23:44:35.1289 | INFO | 0HN3SQ4MD9K2S | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】SELECT [notice_id],[notice_title],[notice_type],[notice_content],[Status],[Create_by],[Create_time],[Update_by],[Update_time],[Remark] FROM [sys_notice]  WHERE ( [Status] = 0 )ORDER BY [Create_time] DESC
+
+2024-05-25 23:44:35.3177 | INFO | 0HN3SQ4MD9K2T | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc]  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:44:35.3177 | INFO | 0HN3SQ4MD9K2T | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/list 
+【db0 SQL】SELECT * FROM (SELECT  [c].[ChapeterId] AS [ChapeterId] , [c].[ChapterName] AS [ChapterName] , [c].[ChapterItemName] AS [ChapterItemName] , [ch].[CourseName] AS [Course] , [c].[CreateTime] AS [CreateTime] , [c].[CreateUser] AS [CreateUser] , [c].[ChapterUrl] AS [ChapterUrl] , [c].[Desc] AS [Desc] ,ROW_NUMBER() OVER(ORDER BY ChapterName asc,[ChapterName] Asc) AS RowIndex  FROM [Chapeter] [c] Left JOIN [Course] [ch] ON ( [c].[CourseId] = [ch].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:44:35.3484 | INFO | 0HN3SQ4MD9K2U | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-25 23:44:48.6320 | INFO | 0HN3SQ4MD9K2V | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/60208fb3-71d0-4021-8de3-6e090b267e17 
+【db0 SQL】SELECT  TOP 1 [ChapeterId],[ChapterName],[ChapterItemName],[CourseId],[ChapterUrl],[Desc],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Chapeter]  WHERE ( [ChapeterId] = N'60208fb3-71d0-4021-8de3-6e090b267e17' )
+
+2024-05-25 23:44:52.6570 | INFO | 0HN3SQ4MD9K30 | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/60208fb3-71d0-4021-8de3-6e090b267e17 
+【db0 SQL】SELECT  TOP 1 [ChapeterId],[ChapterName],[ChapterItemName],[CourseId],[ChapterUrl],[Desc],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Chapeter]  WHERE ( [ChapeterId] = N'60208fb3-71d0-4021-8de3-6e090b267e17' )
+
+2024-05-25 23:44:56.6887 | INFO | 0HN3SQ4MD9K31 | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams]  FROM [UserScore]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:44:56.6887 | INFO | 0HN3SQ4MD9K31 | 127.0.0.1 | userName=admin | http://localhost/business/UserScore/list 
+【db0 SQL】SELECT * FROM (SELECT  [UserName] AS [Name] , [Score] AS [Score] , [CreateTime] AS [DateTime] , N'练习' AS [Exams] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [UserScore]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:44:59.0411 | INFO | 0HN3SQ4MD9K32 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter]  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) CountTable 
+
+2024-05-25 23:44:59.0695 | INFO | 0HN3SQ4MD9K32 | 127.0.0.1 | userName=admin | http://localhost/business/Select/list 
+【db0 SQL】SELECT * FROM (SELECT  [s].[SelectId] AS [SelectId] , [s].[Question] AS [Question] , [s].[Answer] AS [Answer] , [s].[OptionA] AS [OptionA] , [s].[OptionB] AS [OptionB] , [s].[OptionC] AS [OptionC] , [s].[OptionD] AS [OptionD] , [c].[ChapterName] AS [Chapter] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Select] [s] Left JOIN [Chapeter] [c] ON (CAST([s].[ChapeterId] AS UNIQUEIDENTIFIER) = [c].[ChapeterId] )  ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:44:59.0695 | INFO | 0HN3SQ4MD9K33 | 127.0.0.1 | userName=admin | http://localhost/business/Chapeter/select 
+【db0 SQL】SELECT  [ChapeterId] AS [ChapeterId] , [ChapterName] AS [ChapterName]  FROM [Chapeter] 
+
+2024-05-25 23:45:07.0337 | INFO | 0HN3SQ4MD9K34 | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish]  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:45:07.0594 | INFO | 0HN3SQ4MD9K34 | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】SELECT * FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:45:07.0594 | INFO | 0HN3SQ4MD9K35 | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/select 
+【db0 SQL】SELECT  [CourseId] AS [CourseId] , [CourseName] AS [CourseName]  FROM [Course] 
+
+2024-05-25 23:45:08.5960 | INFO | 0HN3SQ4MD9K36 | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish]  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:45:08.5960 | INFO | 0HN3SQ4MD9K36 | 127.0.0.1 | userName=admin | http://localhost/business/Exam/list 
+【db0 SQL】SELECT * FROM (SELECT  [y].[CourseName] AS [CourseName] , [x].[ExamId] AS [ExamId] , [x].[ExamName] AS [ExamName] , [x].[Duration] AS [Duration] , [x].[CreateTime] AS [CreateTime] , [x].[UpdateTime] AS [UpdateTime] , [x].[StartTime] AS [StartTime] , [x].[EndTime] AS [EndTime] , [x].[IsDeleted] AS [IsDeleted] , [x].[CourseId] AS [CourseId] , [x].[ExamScore] AS [ExamScore] , [x].[CreateUser] AS [CreateUser] , [x].[IsFinish] AS [IsFinish] ,ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [Exam] [x] Left JOIN [Course] [y] ON ( [x].[CourseId] = [y].[CourseId] )   WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:45:11.3700 | INFO | 0HN3SQ4MD9K37 | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Course]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:45:11.3700 | INFO | 0HN3SQ4MD9K37 | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】SELECT * FROM (SELECT [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted],ROW_NUMBER() OVER(ORDER BY [CourseId] Asc) AS RowIndex  FROM [Course]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:45:14.2731 | INFO | 0HN3SQ4MD9K38 | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/0680059c-af84-467e-9751-2ad894e28265 
+【db0 SQL】SELECT  TOP 1 [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Course]  WHERE ( [CourseId] = N'0680059c-af84-467e-9751-2ad894e28265' )
+
+2024-05-25 23:45:21.4295 | WARN | 0HN3SQ4MD9K39 | 127.0.0.1 |  | http://localhost/Common/UploadFile 
+【db0 SQL】INSERT INTO [sys_file]  
+           ([Id],[RealName],[FileType],[FileName],[FileUrl],[StorePath],[FileSize],[FileExt],[Create_by],[Create_time],[StoreType],[AccessUrl])
+     VALUES
+           (1794394331105337344,N'屏幕截图 2024-01-29 163217.png',N'image/png',N'D3EE7F20CA5087B0.png',N'D:/Users/Lenovo/Source/BaseAdmin/NET-Main/BaseAdmin.WebApi/wwwroot/2024/0525/D3EE7F20CA5087B0.png',N'2024/0525',N'539.95kb',N'.png',N'admin',CAST('2024-05-25 23:45:21.421' AS DATETIME),1,N'http://localhost:8888/2024/0525/D3EE7F20CA5087B0.png') ;
+
+2024-05-25 23:45:22.7775 | WARN | 0HN3SQ4MD9K3B | 127.0.0.1 | userName=admin | http://localhost/business/CourseService 
+【db0 SQL】UPDATE [Course]  SET
+           [CourseName]=N'C#高级面向对象',[PicUrl]=N'http://localhost:8888/2024/0525/D3EE7F20CA5087B0.png',[UpdateUser]=N'admin',[UpdateTime]=GETDATE()  WHERE [CourseId]=N'0680059c-af84-467e-9751-2ad894e28265'
+
+2024-05-25 23:45:22.7775 | WARN | 0HN3SQ4MD9K3B | 127.0.0.1 | userName=admin | http://localhost/business/CourseService 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'课程',2,N'Course.UpdateCourse()',N'PUT',0,N'admin',N'/business/CourseService',N'127.0.0.1',N'0-内网IP-内网IP',N'{"courseId":"0680059c-af84-467e-9751-2ad894e28265","courseName":"C#高级面向对象","createUser":"admin","picUrl":"http://localhost:8888/2024/0525/D3EE7F20CA5087B0.png","createTime":"2024-05-19 12:50:35","isDeleted":false}',N'{  "code": 200,  "msg": "success"}',0,CAST('2024-05-25 23:45:22.780' AS DATETIME),0) ;
+
+2024-05-25 23:45:22.8272 | INFO | 0HN3SQ4MD9K3C | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Course]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:45:22.8272 | INFO | 0HN3SQ4MD9K3C | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】SELECT * FROM (SELECT [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted],ROW_NUMBER() OVER(ORDER BY [CourseId] Asc) AS RowIndex  FROM [Course]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:45:24.5134 | INFO | 0HN3SQ4MD9K3D | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/be070285-4d40-4671-8d15-70937378a9a4 
+【db0 SQL】SELECT  TOP 1 [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Course]  WHERE ( [CourseId] = N'be070285-4d40-4671-8d15-70937378a9a4' )
+
+2024-05-25 23:45:31.5359 | WARN | 0HN3SQ4MD9K3E | 127.0.0.1 |  | http://localhost/Common/UploadFile 
+【db0 SQL】INSERT INTO [sys_file]  
+           ([Id],[RealName],[FileType],[FileName],[FileUrl],[StorePath],[FileSize],[FileExt],[Create_by],[Create_time],[StoreType],[AccessUrl])
+     VALUES
+           (1794394373522333696,N'微信图片_20231227153617.jpg',N'image/jpeg',N'19CE23C928451100.jpg',N'D:/Users/Lenovo/Source/BaseAdmin/NET-Main/BaseAdmin.WebApi/wwwroot/2024/0525/19CE23C928451100.jpg',N'2024/0525',N'139.1kb',N'.jpg',N'admin',CAST('2024-05-25 23:45:31.538' AS DATETIME),1,N'http://localhost:8888/2024/0525/19CE23C928451100.jpg') ;
+
+2024-05-25 23:45:32.1925 | WARN | 0HN3SQ4MD9K3F | 127.0.0.1 | userName=admin | http://localhost/business/CourseService 
+【db0 SQL】UPDATE [Course]  SET
+           [CourseName]=N'语文',[PicUrl]=N'http://localhost:8888/2024/0525/19CE23C928451100.jpg',[UpdateUser]=N'admin',[UpdateTime]=GETDATE()  WHERE [CourseId]=N'be070285-4d40-4671-8d15-70937378a9a4'
+
+2024-05-25 23:45:32.1925 | WARN | 0HN3SQ4MD9K3F | 127.0.0.1 | userName=admin | http://localhost/business/CourseService 
+【db0 SQL】INSERT INTO [sys_oper_log]  
+           ([Title],[BusinessType],[Method],[RequestMethod],[OperatorType],[OperName],[OperUrl],[OperIp],[OperLocation],[OperParam],[JsonResult],[Status],[OperTime],[Elapsed])
+     VALUES
+           (N'课程',2,N'Course.UpdateCourse()',N'PUT',0,N'admin',N'/business/CourseService',N'127.0.0.1',N'0-内网IP-内网IP',N'{"courseId":"be070285-4d40-4671-8d15-70937378a9a4","courseName":"语文","createUser":"admin","picUrl":"http://localhost:8888/2024/0525/19CE23C928451100.jpg","createTime":"2024-05-13 20:26:11","isDeleted":false}',N'{  "code": 200,  "msg": "success"}',0,CAST('2024-05-25 23:45:32.196' AS DATETIME),0) ;
+
+2024-05-25 23:45:32.2602 | INFO | 0HN3SQ4MD9K3G | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】 SELECT COUNT(1) FROM (SELECT [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted] FROM [Course]  WHERE ( 1 = 1 ) ) CountTable 
+
+2024-05-25 23:45:32.2602 | INFO | 0HN3SQ4MD9K3G | 127.0.0.1 | userName=admin | http://localhost/business/CourseService/list 
+【db0 SQL】SELECT * FROM (SELECT [CourseId],[CourseName],[PicUrl],[CreateUser],[CreateTime],[UpdateUser],[UpdateTime],[IsDeleted],ROW_NUMBER() OVER(ORDER BY [CourseId] Asc) AS RowIndex  FROM [Course]  WHERE ( 1 = 1 ) ) T WHERE RowIndex BETWEEN 1 AND 10
+
+2024-05-25 23:45:37.6052 | INFO | 0HN3SQ4MD9K3H | ::1 |  | http://localhost/business/CourseService/GetUniCourses 
+【db0 SQL】SELECT  [PicUrl] AS [PicUrl] , [CourseName] AS [CourseName] , [CourseId] AS [CourseId]  FROM [Course] 
+
+2024-05-25 23:45:41.8930 | WARN | 0HN3SQ4MD9K2S | 127.0.0.1 |  | http://localhost/msghub 
+【db0 SQL】INSERT INTO [UserOnlineLog]  
+           ([Id],[UserId],[OnlineTime],[TodayOnlineTime],[AddTime],[Location],[UserIP],[LoginTime],[Remark],[Platform])
+     VALUES
+           (1794394416941768704,1,1.11,2.31,CAST('2024-05-25 23:45:41.891' AS DATETIME),N'内网IP',N'127.0.0.1',CAST('2024-05-25 23:44:35.127' AS DATETIME),N'Windows 10 Other Edge 123.0.0',N'web') ;
+

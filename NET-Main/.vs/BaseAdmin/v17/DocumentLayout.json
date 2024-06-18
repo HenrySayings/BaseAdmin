@@ -1,0 +1,302 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseadmin.webapi\\controllers\\business\\selectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|solutionrelative:baseadmin.webapi\\controllers\\business\\selectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C84599-1E99-45B4-929B-417C37337EF8}|BaseCommon\\BaseCommon.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\basecommon\\randomutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C84599-1E99-45B4-929B-417C37337EF8}|BaseCommon\\BaseCommon.csproj|solutionrelative:basecommon\\randomutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseservicecore\\services\\chapeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|solutionrelative:baseservicecore\\services\\chapeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseservicecore\\model\\dto\\selectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|solutionrelative:baseservicecore\\model\\dto\\selectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseadmin.webapi\\controllers\\system\\syslogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|solutionrelative:baseadmin.webapi\\controllers\\system\\syslogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseadmin.webapi\\controllers\\system\\sysusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|solutionrelative:baseadmin.webapi\\controllers\\system\\sysusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseadmin.webapi\\controllers\\system\\sysmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|solutionrelative:baseadmin.webapi\\controllers\\system\\sysmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseadmin.webapi\\controllers\\business\\chapetercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|solutionrelative:baseadmin.webapi\\controllers\\business\\chapetercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseadmin.webapi\\controllers\\business\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|solutionrelative:baseadmin.webapi\\controllers\\business\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseadmin.webapi\\controllers\\system\\sysrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|solutionrelative:baseadmin.webapi\\controllers\\system\\sysrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseservicecore\\services\\userscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|solutionrelative:baseservicecore\\services\\userscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseservicecore\\model\\userscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|solutionrelative:baseservicecore\\model\\userscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseservicecore\\model\\dto\\userscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|solutionrelative:baseservicecore\\model\\dto\\userscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseadmin.webapi\\controllers\\business\\userscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5497BB4-B0C1-4794-9FAE-163F626EC399}|BaseAdmin.WebApi\\BaseAdmin.WebApi.csproj|solutionrelative:baseadmin.webapi\\controllers\\business\\userscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseservicecore\\model\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|solutionrelative:baseservicecore\\model\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseservicecore\\model\\sysuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|solutionrelative:baseservicecore\\model\\sysuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|d:\\users\\lenovo\\source\\baseadmin\\net-main\\baseservicecore\\model\\dto\\examselectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CC4E4-F109-4876-8498-912E13905765}|BaseServiceCore\\BaseServiceCore.csproj|solutionrelative:baseservicecore\\model\\dto\\examselectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 37,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectController.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\Business\\SelectController.cs",
+              "RelativeDocumentMoniker": "BaseAdmin.WebApi\\Controllers\\Business\\SelectController.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\Business\\SelectController.cs",
+              "RelativeToolTip": "BaseAdmin.WebApi\\Controllers\\Business\\SelectController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAIAxwJIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:11:04.84Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RandomUtil.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseCommon\\RandomUtil.cs",
+              "RelativeDocumentMoniker": "BaseCommon\\RandomUtil.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseCommon\\RandomUtil.cs",
+              "RelativeToolTip": "BaseCommon\\RandomUtil.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T02:05:06.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectDto.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\Dto\\SelectDto.cs",
+              "RelativeDocumentMoniker": "BaseServiceCore\\Model\\Dto\\SelectDto.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\Dto\\SelectDto.cs",
+              "RelativeToolTip": "BaseServiceCore\\Model\\Dto\\SelectDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:11:46.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SysMenuController.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\System\\SysMenuController.cs",
+              "RelativeDocumentMoniker": "BaseAdmin.WebApi\\Controllers\\System\\SysMenuController.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\System\\SysMenuController.cs",
+              "RelativeToolTip": "BaseAdmin.WebApi\\Controllers\\System\\SysMenuController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:59:41.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SysRoleController.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\System\\SysRoleController.cs",
+              "RelativeDocumentMoniker": "BaseAdmin.WebApi\\Controllers\\System\\SysRoleController.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\System\\SysRoleController.cs",
+              "RelativeToolTip": "BaseAdmin.WebApi\\Controllers\\System\\SysRoleController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:15:35.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\Business\\CourseController.cs",
+              "RelativeDocumentMoniker": "BaseAdmin.WebApi\\Controllers\\Business\\CourseController.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\Business\\CourseController.cs",
+              "RelativeToolTip": "BaseAdmin.WebApi\\Controllers\\Business\\CourseController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:14:47.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SysLoginController.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\System\\SysLoginController.cs",
+              "RelativeDocumentMoniker": "BaseAdmin.WebApi\\Controllers\\System\\SysLoginController.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\System\\SysLoginController.cs",
+              "RelativeToolTip": "BaseAdmin.WebApi\\Controllers\\System\\SysLoginController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAwwEcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:12:39.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserScoreService.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Services\\UserScoreService.cs",
+              "RelativeDocumentMoniker": "BaseServiceCore\\Services\\UserScoreService.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Services\\UserScoreService.cs",
+              "RelativeToolTip": "BaseServiceCore\\Services\\UserScoreService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:10:10.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserScoreDto.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\Dto\\UserScoreDto.cs",
+              "RelativeDocumentMoniker": "BaseServiceCore\\Model\\Dto\\UserScoreDto.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\Dto\\UserScoreDto.cs",
+              "RelativeToolTip": "BaseServiceCore\\Model\\Dto\\UserScoreDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA1wBMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:09:24.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserScore.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\UserScore.cs",
+              "RelativeDocumentMoniker": "BaseServiceCore\\Model\\UserScore.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\UserScore.cs",
+              "RelativeToolTip": "BaseServiceCore\\Model\\UserScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:00:02.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "BaseServiceCore\\Model\\BaseEntity.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\BaseEntity.cs",
+              "RelativeToolTip": "BaseServiceCore\\Model\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:53:18.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserScoreController.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\Business\\UserScoreController.cs",
+              "RelativeDocumentMoniker": "BaseAdmin.WebApi\\Controllers\\Business\\UserScoreController.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\Business\\UserScoreController.cs",
+              "RelativeToolTip": "BaseAdmin.WebApi\\Controllers\\Business\\UserScoreController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwDYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:32:53.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExamSelectDto.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\Dto\\ExamSelectDto.cs",
+              "RelativeDocumentMoniker": "BaseServiceCore\\Model\\Dto\\ExamSelectDto.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\Dto\\ExamSelectDto.cs",
+              "RelativeToolTip": "BaseServiceCore\\Model\\Dto\\ExamSelectDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:26:52.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChapeterController.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\Business\\ChapeterController.cs",
+              "RelativeDocumentMoniker": "BaseAdmin.WebApi\\Controllers\\Business\\ChapeterController.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\Business\\ChapeterController.cs",
+              "RelativeToolTip": "BaseAdmin.WebApi\\Controllers\\Business\\ChapeterController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAD4v2kAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:44:49.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SysUser.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\SysUser.cs",
+              "RelativeDocumentMoniker": "BaseServiceCore\\Model\\SysUser.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Model\\SysUser.cs",
+              "RelativeToolTip": "BaseServiceCore\\Model\\SysUser.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:39:31.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SysUserController.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\System\\SysUserController.cs",
+              "RelativeDocumentMoniker": "BaseAdmin.WebApi\\Controllers\\System\\SysUserController.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseAdmin.WebApi\\Controllers\\System\\SysUserController.cs",
+              "RelativeToolTip": "BaseAdmin.WebApi\\Controllers\\System\\SysUserController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAvwEIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:01:34.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChapeterService.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Services\\ChapeterService.cs",
+              "RelativeDocumentMoniker": "BaseServiceCore\\Services\\ChapeterService.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Source\\BaseAdmin\\NET-Main\\BaseServiceCore\\Services\\ChapeterService.cs",
+              "RelativeToolTip": "BaseServiceCore\\Services\\ChapeterService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:16:48.744Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

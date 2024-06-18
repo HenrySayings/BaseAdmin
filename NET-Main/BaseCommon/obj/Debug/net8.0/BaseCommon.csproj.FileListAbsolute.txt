@@ -1,0 +1,15 @@
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\bin\Debug\net8.0\BaseCommon.deps.json
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\bin\Debug\net8.0\BaseCommon.dll
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\bin\Debug\net8.0\BaseCommon.pdb
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\bin\Debug\net8.0\BaseInfrastructure.dll
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\bin\Debug\net8.0\BaseInfrastructure.pdb
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\BaseCommon.csproj.AssemblyReference.cache
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\BaseCommon.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\BaseCommon.AssemblyInfoInputs.cache
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\BaseCommon.AssemblyInfo.cs
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\BaseCommon.csproj.CoreCompileInputs.cache
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\BaseCommon.csproj.Up2Date
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\BaseCommon.dll
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\refint\BaseCommon.dll
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\BaseCommon.pdb
+D:\Users\Lenovo\Source\BaseAdmin\NET-Main\BaseCommon\obj\Debug\net8.0\ref\BaseCommon.dll
